@@ -1,0 +1,77 @@
+\documentclass[english, a4, 12pt]{scrartcl}
+\input{config.tex}
+
+%hilfmittelende
+
+\begin{document}
+\numberwithin{equation}{section}
+	
+	\begin{titlepage}
+		\begin{minipage}[c][\textheight][c]{\textwidth}
+			\begin{center}
+				{ \Huge \textbf{Bachelorthesis} }
+				
+				\vspace*{1cm}
+				{\Large Tamara Szecsey}
+				
+				\vspace*{1cm}
+				{\Large \today}
+				
+				\vspace*{4cm}
+				\hspace*{1cm} \includegraphics[height=30ex]{LOGO_UR}
+			\end{center}
+		\end{minipage}
+	\end{titlepage}
+	
+\tableofcontents	
+\clearpage	
+\section{Introduction}
+	\subsection{Conventions}
+\section{Basic environments}
+	
+	%\subsection{Minkowski space}
+	\input{Minkowski_space} 
+
+	\subsection{de Sitter space \textbf{N}} 
+		De Sitter space is a good approximation of the geometry of our universe today and in the past while inflation.\footnote{inflation: a well proofed theory of exponential expansion of space and mass in the early universe}. It is a solution of the Einstein's equations with positive energy and is a submanifold of the Minkowski space.
+		For defining a four-dimensional de Sitter space, we have a $(4+1)$-dimensional Minkowski space, where it would be a hyperboloid with \marginpar{siehe blackhole.pdf S.133}
+		\begin{equation}
+			\sum_{i=1}^4 (x^i)^2 - (x^0)^2 = R^2.			
+		\end{equation}
+	 	
+	%\subsection{Schwarzschild geometry}
+	\input{Schwarzschild_geometry}
+			
+%\clearpage		
+\section{Basic ways of visualising the black hole problems on paper}
+	
+	%subsection{The Kruskal extenstion}
+	\input{Kruskal_extension}
+	
+	%subsection{Penrose diagrams} including supsupsections
+	\input{Penrose_diagrams}		
+
+	%subsection{Classical black hole formation}	
+	\input{black_hole_formation}	
+
+%\section{What is Quantum field theory?}
+\input{QFT}	
+
+%\section{What is Entanglement and what is it good for?}
+\input{entanglement} 
+
+%\section{Rindler}
+\input{Rindler}
+
+%\\section{Schwarzschild modes}
+\input{Schwarzschild_modes}
+
+%\section{Information problem}
+\input{Information_problem}
+
+\end{document}
+
+%%% Local Variables: ***
+%%% TeX-master: "main.tex" ***
+%%% End: ***
+

@@ -1,0 +1,58 @@
+\section{Schwarzschild modes \textbf{N}}
+	\begin{figure} [tbp]
+		\begin{center}
+			\includegraphics[scale=0.5]{plots_of_V}
+			\caption{These are the plots of $V(r_*)$ for $l=\{0,1,2,3$\}.} \label{plots_of_V}
+		\end{center}
+	\end{figure} %eigener Plot eingefügen
+
+	We now have a look at free fields in the Schwarzschild geometry. For the beginning we need to find a set of modes $f$ that solve the free scalar equation of motion:
+		\begin{equation} \label{Klein_Gordon_curved}
+			\frac{1}{\sqrt{-g}} \partial_\mu (\sqrt{-g} g^{\mu \nu} \partial_\nu \phi)
+			= m^2 \phi
+		\end{equation}
+	which is the \textit{Klein-Gordons equation for curved space} and where $g_{\mu \nu}$ is the Schwarzschild metric and $g$ is its determinant. Its solutions are also modes in \eqref{wave_fct}, were we can study its properties in an appropriate quantum state such as the Hartle-Hawking state\footnote{what is that}.
+	
+	We now focus on the right exterior of the Schwarzschild geometry, where we use the coordinates $(t,r, \Omega)$. The solutions are having the form
+		\begin{equation}
+			f_{\omega l m} = 
+			\frac{1}{r} Y_{l m}(\Omega) e^{-i \omega t} \psi_{\omega l}(r)
+		\end{equation}
+	Let's put these into the equation \eqref{Klein_Gordon_curved} above and use the tortoise coordinates from \eqref{r_*tortoise} to reform it into a Schrödinger equation:
+		\begin{equation}
+			- \frac{d^2}{dr^2_*} \Psi_{\omega l} 
+			+ V(r) \Psi_{\omega l} 
+			= \omega^2 \Psi_{\omega l}
+		\end{equation}
+	with the effective Potential of
+		\begin{equation}
+			V(r)=
+			\frac{r-1}{r^3} \left( m^2r^2 + l(l+1) + \frac{1}{r}
+			\right)
+		\end{equation}
+	Let's have a look at the mass m: For simlicity, we consider the Compton wavelength $\frac{1}{m}$ can be\footnote{ The \textit{Schwarzschild radius $r_s$ is still 1}, but I sometimes write $r_s$ to make some things more obvious.} 
+		\begin{enumerate}[(i)]
+			\item $\frac{1}{m} \ll r_s$	~~ which is the \textit{massive case} and \label{massive}
+			\item $\frac{1}{m} \gg r_s$	~~ which is the \textit{massless case}. \label{massless}
+		\end{enumerate}
+	For to explain, why case \eqref{massless} is more interesting for us, we first need to have a look at case \eqref{massive}.
+	
+	 Here the potential goes to $m^2$ for $r \gg 1$ which means that massive modes will only propagate till near infinity if $\omega \geq m$. Because we assumed, that $m \gg 1$, any modes with an energy $\omega$ of order of the Schwarzschild radius \textit{will stay near the horizon}. In addition the temperature of black holes\footnote{The Hawling-temperatur is defined as $T_{Hawking}= 
+	 \frac{\hbar c^3}{4 \pi k_B r_s}$.} is of order $\frac{1}{r_s}$. This means, that $\omega \approx 1$ would be the most interesting energy. \marginpar{warum massive case dann uninteressant?}
+	
+	So from now on we remain within the case of $m^2=0$.
+	Here the asymptotic behavior of the potential is
+		\begin{equation}
+			V\approx
+			\begin{cases}
+				\frac{l(l+1)}{r^2_*} &r_* \rightarrow \infty \\
+				(l^2 + l + 1) e^{r_*-1} &r_* \rightarrow - \infty
+			\end{cases}
+		\end{equation}
+		
+	\begin{figure} [tbp]
+		\begin{center}
+			\includegraphics[scale=1.6]{schscat}
+			\caption{Bla} \label{plots_of_V}
+		\end{center}
+	\end{figure}

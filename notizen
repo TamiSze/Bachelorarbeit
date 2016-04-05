@@ -1,0 +1,60 @@
+grober aufbau:
+
+Kapitel des Skriptes:
+-introduction
+-classical black holes
+	-the schwarzschild geometry
+	-the kruskal extension
+	-penrose diagrams
+	-real black holes
+-entanglement in quantum field theory
+	-quantum field theory (QFT)
+	-entanglement in the vacuum
+	-the Rindler decomposition
+	-free fields in Rindler space
+	-entanglement is important for horizon crossing: an introduction to firewalls
+-quantum field theory in a black hole background
+	-two-sided Schwarzschild and the Rindler decomposition
+	-Schwarzschild modes
+	-Hawking's calculation of black hole radiation
+	-Evaporation
+	-Entropy and thermodynamics
+	-The information problem
+Bis hier hin wurde Skript bearbeitet!
+
+Eigene Gliederung im main.tex
+
+geodesic: the curve that is as straight as possible in a riemann manifold. (Differentialgeometrie_Topologie... S.262)
+
+Minkowski space[ART Springer S.10 oder Apprendix A]
+
+
+Mail Antwort vom Autor ^^:
+Tau is an FRW time coordinate, 2.14 uses the standard "global" coordinates for de Sitter space.  You might want to look in Sean Carroll's textbook for more information.
+Daniel
+
+FRW:  Friedmann-Robertson-Walker Metric
+
+classical black hole formation:
+
+-the Schwarzschild horizon has a property which can be detected locally in time: for any sphere of constant $r$ with $r<1$
+- any null geodesics of these spheres which starts out orthogonal converges towards the other null geodesics. And if this is a compact 2-dim surface, it's called a \textit{closed trapped surface}.
+- An apparent horizon is now a surface which is a boundary of a connected set of closed trapped surfaces.
+- it is shown in blue dots it figure 5. as you can see, the apparent horizon does form itself, when the photon shell crosses the event horizon (black dots)
+
+Quantum field theory:
+
+Here the Hilbert space is like an infinite tensor product over all points in space, while we have finite degrees of freedom at each point. 
+For example, we take a scalar field $\psi(x)$ where there is only a one degree of freedom at each spatial point. 
+
+Entanglement:
+
+If the fields are completely discontinous like in \eqref{mixed_state_firewall} , the gradient term of the Hamiltonian will diverge at $x=0$. If you are an observer in the left or right Rindlers wedge it seems, that you just have vacuum state, but the energy is infinit. Its typical field fluctuation is given by $\frac{1}{\epsilon}$ where $\epsilon$ is a short-distance length cutoff \marginpar{was ist damit genau gemeint?}
+
+Schwarzschild modes:
+
+
+Information problem:
+
+
+

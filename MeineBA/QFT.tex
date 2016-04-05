@@ -1,0 +1,102 @@
+\section{What is Quantum field theory? \textbf{N}}
+	Here the Hilbert space is like an infinite tensor product over all points in space, while we have finite degrees of freedom at each point. 
+For example, we take a scalar field $\phi(x)$ where there is only a one degree of freedom at each spatial point. 
+
+	Then the free scalar field of mass m's Hamiltionian looks like
+		\begin{equation}
+			H=\frac{1}{2}\int \diff^3 x \left(\pi(x)^2 + \vec{\nabla}\phi(x) \cdot \vec{\nabla}\phi(x) + m^2\phi(x)^2 \right).
+		\end{equation}
+	The funktion $\pi(x)$ is the canonical conjugated momentum to $\phi$ which can be put out to tender as $-i\frac{\delta}{\delta\phi(x)}$. For beginners, the $\phi$ would be something like the spacial coordinate $x$ in theoretical mechanics and $\pi$ is the companian piece to $p$, the momentum.
+	Together they obey
+		\begin{align}
+			\begin{split}
+				[\phi(x),\pi(y)]&=i \delta^3(x-y) \\
+				[\phi(x),\phi(y)]&=0 \\
+				[\pi(x),\pi(y)]&=0.
+			\end{split}
+		\end{align}
+	This is consistent to the fact that for each field at a each point, we have an individual tensor factor.		
+	The Hamiltonian results out of the Lorentz-invariant action\footnote{For germanspeakers: Because it is often confused because of television, action in physics means \textit{Wirkung}.}:
+		\begin{equation}
+			S=-\frac{1}{2} \int \diff^4 x \left(\partial_\mu \phi \partial^\mu \phi + m^2\phi^2 \right)
+		\end{equation}
+	Where in general action is defined as: 
+		\begin{equation} 
+			S=S[q]= \int\limits_{t_1}^{t_2} \diff t \mathscr{L}(q,\dot q,t)
+		\end{equation} \marginpar{mech. fließbach}
+	In quantum mechanics, we are often interested in describing the ground state wavefunction $|\Omega\rangle$. If we do this for the free massive scalar field, we find out that \marginpar{[7]}
+		\begin{equation}
+			\langle\phi| \Omega\rangle \propto \exp\left[-\frac{1}{2} \int \diff^3 x \diff^3 y \phi(x)\phi(y) K(x,y)\right].
+		\end{equation}
+	with
+		\begin{equation}
+			K(x,y)=\int \frac{\diff^3 k}{(2\pi)^3} e^{i\vec{k} \cdot (\vec{x}-\vec{y})} \sqrt{\vec{k}^2+m^2}.
+		\end{equation}
+	Here $r \equiv |x-y|$.
+	
+	$K(x,y)$ is often called a propagator and normaly includes at least four coordinates, two for the beginning state and two for the final state. If we want to include timeordering, we would use the Greenfunction which would be a theta function multiplied with the propagator: $G(\textbf{r}_2,t_2;\textbf{r}_1,t_1)=\Theta(t_2-t_1)\cdot K(\textbf{r}_2,t_2;\textbf{r}_1,t_1)$.\marginpar{QEDbuch}\\
+	
+	But we now would like to generalize theories with interactions, so we study the vaccum expectation values of products of Heisenberg picture fields which look like $\phi(t,x) \equiv e^{iHt} \phi(x) e^{-iHt}$. In our case of the free massive scalar field we have this equation for motion:
+		\begin{equation}  \label{EqOfMotion}
+			\phi(t,x) = \int \frac{\diff^3 k}{(2\pi)^2} \frac{1}{\sqrt{2\omega_k}} 
+			\left[ e^{i(\vec{k}\cdot\vec{x}-\omega t)} a_{\vec{k}} +
+			e^{-i(\vec{k}\cdot\vec{x}-\omega t)} a^{\dagger}_{\vec{k}}
+			\right]
+		\end{equation}
+	where we defined $\omega_k \equiv \sqrt{\vec{k}^2+m^2}$. The $a^{\dagger}_{\vec{k}}$ and $a_{\vec{k}}$ should be known out of the basics of quantum mechanics as the creation and annihilation operators\footnote{These operators should be known out of the theoretical physics of the harmonic oscillator, where $\hat{a}= \sqrt{\frac{m\omega}{2\hbar}} 
+		\left(\hat{q} + \frac{i}{m\omega}\hat{p}
+		\right)
+		$ and 
+		$ \hat{a}^{\dagger}= \sqrt{\frac{m\omega}{2\hbar}} 
+		\left(\hat{q} - \frac{i}{m\omega}\hat{p}
+		\right)
+		$
+	with the feature that if you let them operate with a wave function $|n\rangle$ they act like this:
+	$\hat{a}|n\rangle = \sqrt{n}|n-1\rangle$ and $\hat{a}^{\dagger}|n\rangle= \sqrt{n+1}|n+1\rangle$.
+	And $a^{\dagger}$ is the adjoint of $a$ which means: $\langle \psi | a | \phi \rangle^*= \langle \phi | a^{\dagger} | \psi \rangle$ just for reminding.
+%end footnote
+	}, and they obey
+		\begin{align*}
+			[a_{\vec{k}},a^{\dagger}_{\vec{k'}}]&= (2\pi)^3 \delta^3 (\vec{k}-\vec{k'})\\
+			[a_{\vec{k}},a_{\vec{k'}}]&=0 \\
+			[a^{\dagger}_{\vec{k}},a^{\dagger}_{\vec{k'}}]&=0 \\
+			[H,a_{\vec{k}}]&=-\omega_k a_{\vec{k}}.
+		\end{align*}
+	Now we are searching for a more abstract form of \eqref{EqOfMotion} where $a_n$ and $a^{\dagger}_n$ have the standard algebra, in the following way:
+		\begin{equation} \label{wave_fct}
+			\phi = \sum_n \left(f_n a_n + f^*_n a^{\dagger}_n \right)
+		\end{equation}
+	Here we use a basis of solutions $f_n(x)$ of
+		\begin{equation} \label{Klein-Gordon-eq}
+			\left( \partial_{\mu}\partial^{\mu} - m^2 \right) f(t,x)=0
+		\end{equation}			
+	that have a time dependence of the form $e^{-i\omega t}$ with $\omega>0$. We also define the same $f_n$ in a way, that they are orthonormal in the Klein-Gordon\footnote{Perhaps you already noticed, that \eqref{Klein-Gordon-eq} is the Klein-Gordon Equation which is nothing else than the relativistic Schrödinger Equation.} norm, so that
+		\begin{equation}
+			(f_1,f_2)_{KG} \equiv
+			i \int d^3x \left( f^*_1 \dot{f}_2 - \dot{f}^*_1 f_2
+			\right).
+		\end{equation}
+	Now we can have a look at the expectation values (perhaps you remember, that this is the interesting part), which are called \textit{correlation functions}. With just a one-point function, it has to vanish
+		\begin{equation}
+			\langle \Omega| \phi(x,y) |\Omega \rangle = 0.
+		\end{equation}
+	because of the translation invariance in vacuum and how $a_n$ and $a^{\dagger}_n$ act on the vacuum. 
+	For a two-point function with equal times it looks like this:
+		\begin{equation}
+			\langle \Omega| \phi(0,x)\phi(0,y) |\Omega\rangle=
+			\frac{1}{4\pi^2}\frac{m}{|x-y|}K_1(m|x-y|).
+		\end{equation}
+	This function scales with \marginpar{erkäre $K_1$. Besselfkt?}
+		\begin{itemize}
+			\item[•] $\frac{1}{|x-y|}$ for $|x-y| \ll m^{-1}$
+			\item[•] $e^{-m|x-y|}$ for $|x-y| \gg m^{-1}$
+		\end{itemize}
+	But is "gapless" for $m=0$, because the $m^{-1}$, which is also called \textit{correlation length}, is infinite, so exicted states' energies can be arbitrarily close to the ground state energy. A massless scalar field is also invariant under the \textit{conformal group}. This means here we can scale the spacetime like $x'^\mu = \lambda x^\mu$, so its scale-invariant. The quantum field theory with this larger symmetry group is called \textit{conformal field theory} or \textit{CFT}.\\
+	
+	Let's include time difference. Here we need to order the function in time, and this happens with the operator $T$ which is a \textit{transition apmlitude}, so that the two-point function now is:
+		\begin{equation}
+			\langle \Omega| T \phi(t,x)\phi(t',y) |\Omega\rangle=
+			\frac{1}{4\pi^2} \frac{m}{\sqrt{|x-y|^2-(t-t')^2+i\epsilon}}
+			K_1 \left( m\sqrt{|x-y|^2-(t-t')^2+i\epsilon}\right)
+		\end{equation} 
+	And the time increases as we go to the left (by definition). The factor $\epsilon$ should go to zero  and reminds us, that there could be other ways because of the square root not leading to the timelike-seperated points\footnote{have a look at complex numbers}.

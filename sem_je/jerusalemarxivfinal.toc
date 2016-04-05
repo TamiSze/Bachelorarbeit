@@ -1,0 +1,67 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Conventions}{2}{subsection.1.1}
+\contentsline {section}{\numberline {2}Classical black holes}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}The Schwarzschild geometry}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}The Kruskal extension}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Penrose diagrams}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Real black holes}{10}{subsection.2.4}
+\contentsline {section}{\numberline {3}Entanglement in quantum field theory}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Quantum field theory}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Entanglement in the vacuum}{15}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}The Rindler decomposition}{17}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Free fields in Rindler space}{20}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Entanglement is important for horizon crossing: an introduction to firewalls}{23}{subsection.3.5}
+\contentsline {section}{\numberline {4}Quantum field theory in a black hole background}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}Two-sided Schwarzschild and the Rindler decomposition}{25}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Schwarzschild modes}{26}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Hawking's calculation of black hole radiation}{29}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Evaporation}{31}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Entropy and thermodynamics}{32}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}The information problem}{34}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}The brick wall model and the stretched horizon}{38}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}The Euclidean black hole}{41}{subsection.4.8}
+\contentsline {section}{\numberline {5}Unitary evaporation}{46}{section.5}
+\contentsline {subsection}{\numberline {5.1}The S-matrix}{46}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}The Page curve}{48}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Page's theorem}{49}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}How hard is it to test unitarity?}{53}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}What is a typical microstate?}{56}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Scrambling and recovery of quantum information}{57}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Black hole complementarity}{62}{subsection.5.7}
+\contentsline {section}{\numberline {6}Holography and the AdS/CFT correspondence}{64}{section.6}
+\contentsline {subsection}{\numberline {6.1}Entropy bounds and the holographic principle}{65}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Statement of the AdS/CFT correspondence}{67}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Anti de Sitter space}{68}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Conformal field theory}{69}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}The dictionary}{71}{subsubsection.6.2.3}
+\contentsline {subsection}{\numberline {6.3}Perturbations of the AdS vacuum}{75}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}One-sided AdS black holes at fixed energy}{77}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}One-sided AdS black holes at fixed temperature and the Hawking-Page transition}{80}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Fields in the AdS-Schwarzschild background}{82}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Collapsing shells and the two-sided AdS wormhole}{83}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}The information problem in AdS/CFT}{86}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Unitarity for big AdS black holes}{88}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}Von Neumann entropy and the Ryu-Takayanagi Formula}{92}{subsection.6.10}
+\contentsline {section}{\numberline {7}Paradoxes for the infalling observer}{95}{section.7}
+\contentsline {subsection}{\numberline {7.1}The entanglement-monogamy problem}{95}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Firewall typicality}{99}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}The creation operator problem}{101}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}The Marolf-Wall paradox}{102}{subsection.7.4}
+\contentsline {section}{\numberline {8}Proposals for the Interior}{103}{section.8}
+\contentsline {subsection}{\numberline {8.1}Complementarity from computational complexity?}{103}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Nonlinearity?}{108}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Postselection?}{111}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Firewalls?}{115}{subsection.8.4}
+\contentsline {paragraph}{Acknowledgments}{117}{section*.2}
+\contentsline {section}{\numberline {A}General relativity}{118}{appendix.A}
+\contentsline {section}{\numberline {B}Qubits}{121}{appendix.B}
+\contentsline {section}{\numberline {C}Pure states, mixed states, and bipartite systems}{121}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Definitions}{122}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}Bipartite systems}{123}{subsection.C.2}
+\contentsline {subsubsection}{\numberline {C.2.1}Product operators and the partial trace}{123}{subsubsection.C.2.1}
+\contentsline {subsubsection}{\numberline {C.2.2}Entanglement and the Schmidt decomposition}{124}{subsubsection.C.2.2}
+\contentsline {subsubsection}{\numberline {C.2.3}Purifications from the Schmidt Decomposition}{125}{subsubsection.C.2.3}
+\contentsline {subsection}{\numberline {C.3}Entropy inequalities in multipartite systems}{127}{subsection.C.3}
+\contentsline {section}{\numberline {D}Unitary integrals}{128}{appendix.D}
+\contentsline {section}{\numberline {E}Quantum computation and complexity theory}{128}{appendix.E}
+\contentsline {section}{\numberline {F}Homework problems}{131}{appendix.F}

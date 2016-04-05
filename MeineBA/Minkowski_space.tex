@@ -1,0 +1,43 @@
+\subsection{Minkowski space \checkmark}
+	First we need to know what a metric is. 
+	The mathematical definition is as follows[see differentialgeometrie.pdf p.85]
+	A metric
+	$ d:X\times X \rightarrow \R$ is a function, that satisfies the conditions:
+		\begin{enumerate}[(i)]
+			\item $d(x,y)=d(y,x)$;
+			\item $d(x,y)\geq 0$, with equality if and only if $x=y$;
+			\item $d(x,y)+d(x,z)\geq d(x,z)$
+		\end{enumerate}
+	for any $x,y,z \in X$.
+	 
+	But in physics, we express the metric as an invariant line element:
+		\begin{equation}
+		 	\diff s^2 = g_{\mu\nu} \diff x^\mu \diff x^\nu
+		\end{equation}
+	so for getting $d(x,y)$ one have to take the square root of $\diff s^2$ and integrate. $g_{\mu\nu}(x)$ is the \textit{metric tensor}.
+	 
+	 And the metric of ordinary Minkowski space 
+		\begin{equation}
+			\diff s^2=- \diff t^2 + \diff x^2 + \diff y^2 + \diff z^2 = \eta_{\mu\nu} \diff x^\mu \diff x^\nu
+		\end{equation}
+	And here $\eta_{\mu\nu}$ is
+
+		\begin{equation}
+		    \left(\eta_{\mu\nu}\right)=
+		    \left(\begin{array}{cccc}
+		    	-1 & 0 & 0 & 0\\
+		    	0 & +1 & 0 & 0\\
+		    	0 & 0 & +1 & 0\\
+		    	0 & 0 & 0 & +1
+			\end{array}\right)
+%	    \begin{pmatrix}
+%	    	-1 & 0 & 0 & 0\\
+%	    	0 & 1 & 0 & 0\\
+%	    	0 & 0 & 1 & 0\\
+%	    	0 & 0 & 0 & 1
+%	    \end{pmatrix}
+		\end{equation}
+	 
+%%% Local Variables: 
+%%% TeX-master: "main.tex" 
+%%% End: 

@@ -1,0 +1,98 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{SpacetimeCarroll}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Carroll}{C.}%
+     {Sean}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison Wesley}%
+  }
+  \strng{namehash}{CS1}
+  \strng{fullhash}{CS1}
+  \field{sortinit}{C}
+  \field{note}{An Introduction to General Relativity}
+  \field{title}{Spacetime and Geometry}
+  \field{year}{2004}
+\endentry
+
+\entry{ARTfliesbach}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fließbach}{F.}%
+     {Torsten}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Spektrum}%
+  }
+  \strng{namehash}{FT1}
+  \strng{fullhash}{FT1}
+  \field{sortinit}{F}
+  \field{edition}{5}
+  \field{title}{Allgemeine Relativitätstheorie}
+\endentry
+
+\entry{MechanikFliesbach}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fließbach}{F.}%
+     {Torsten}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Spektrum}%
+  }
+  \strng{namehash}{FT1}
+  \strng{fullhash}{FT1}
+  \field{sortinit}{F}
+  \field{edition}{6}
+  \field{note}{Lehrbuch zur Theoretischen Physik 1}
+  \field{title}{Mechanik}
+\endentry
+
+\entry{QEDbuch}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {V.N.~Gribov}{V.~G.}%
+     {J.~Nyiri}{J.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Cambridge monographs on particle physics, nuclear physics}%
+    {cosmology}%
+  }
+  \strng{namehash}{VGJN1}
+  \strng{fullhash}{VGJN1}
+  \field{sortinit}{V}
+  \field{edition}{13}
+  \field{note}{Gibov Lectures on Theoretical Physics}
+  \field{title}{Quantum Electrodynamics}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

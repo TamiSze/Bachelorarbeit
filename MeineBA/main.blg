@@ -1,5 +1,61 @@
-[0] Config.pm:321> INFO - This is Biber 1.9
-[0] Config.pm:324> INFO - Logfile is 'main.blg'
-[28] biber:277> INFO - === Di Sep  8, 2015, 16:37:28
-[76] Utils.pm:160> ERROR - Cannot find control file 'main.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[76] Biber.pm:111> INFO - ERRORS: 1
+This is BibTeX, Version 0.99d (TeX Live 2015/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: bib.bib
+Biblatex version: 3.0
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 5 entries,
+            6047 wiz_defined-function locations,
+            1152 strings with 8518 characters,
+and the built_in function-call counts, 14882 in all, are:
+= -- 796
+> -- 481
+< -- 197
++ -- 199
+- -- 123
+* -- 690
+:= -- 975
+add.period$ -- 0
+call.type$ -- 5
+change.case$ -- 133
+chr.to.int$ -- 34
+cite$ -- 8
+duplicate$ -- 1547
+empty$ -- 1477
+format.name$ -- 202
+if$ -- 3514
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 0
+newline$ -- 98
+num.names$ -- 278
+pop$ -- 1324
+preamble$ -- 1
+purify$ -- 137
+quote$ -- 0
+skip$ -- 1006
+stack$ -- 0
+substring$ -- 659
+swap$ -- 473
+text.length$ -- 116
+text.prefix$ -- 4
+top$ -- 1
+type$ -- 178
+warning$ -- 0
+while$ -- 120
+width$ -- 0
+write$ -- 92

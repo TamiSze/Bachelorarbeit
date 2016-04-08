@@ -1,0 +1,40 @@
+\subsection{de Sitter space \checkmark} 
+	De Sitter space is a good approximation of the geometry of our universe today and in the past while inflation\footnote{inflation: a well proofed theory of exponential expansion of space and mass in the early universe}. It is a solution of the Einstein's equations with positive energy and is a submanifold of the Minkowski space.
+	
+%	For defining a four-dimensional de Sitter space, we have a $(4+1)$-dimensional Minkowski space, where it would be a hyperboloid with \marginpar{siehe \cite{stringtheory_revolution} S.133}
+%		\begin{equation}
+%			\sum_{i=1}^4 (x^i)^2 - (x^0)^2 = R^2.			
+%		\end{equation}
+	
+	In order to understand the form of the De Sitter metric, let's start with the Riemann tensor\footnote{It should be known, that in general relativity we are in a four-dimensional Riemann manifold, where the Riemann tensor gives us the curvature.} for a maximally symmetric n-dimensional manifold: 
+		\begin{align}
+			R_{\mu \nu \lambda \xi} = \kappa (g_{\mu \lambda} g_{\nu \xi} - g_{\mu \xi} g_{\nu \lambda})
+		\end{align}
+	Here $\kappa$ is a measure of the curvature.\footnote{It is normalized and more specifically, it's the Ricci curvature, but this and more information about $\kappa$ is not needed for understanding the De Sitter space.}
+	
+	The already known Minkowski space is a maximally symmetric spacetime with a vanishing curvature $\kappa = 0$. If the curvature is positive, which means $\kappa > 0$, then it is called de Sitter space. For building this it's metric, we first take the five-dimensional Minkowski space:
+		\begin{align}
+			\diff s^2_5 = -\diff u^2 + \diff x^2 + \diff y^2 + \diff z^2 + \diff w^2
+		\end{align}
+	And a corresponding hyperboloid:
+		\begin{align}
+			-u^2 + x^2 + y^2 + z^2 + w^2 = 1
+		\end{align}
+	We use new coordinates $\tau, \chi, \theta$ and $\phi$:
+		\begin{align}
+			\begin{split}
+			u &= \sinh (\tau) \\
+			w &= \cosh (\tau) \cos \chi \\
+			x &= \cosh (\tau) \sin \chi \cos \theta \\
+			y &= \cosh (\tau) \sin \chi \sin \theta \cos \phi \\
+			z &= \cosh (\tau) \sin \chi \sin \theta \sin \phi
+			\end{split}
+		\end{align}
+	So in the end the metric on the hyperboloid looks like:
+		\begin{align}
+			ds^2 = -\diff \tau^2 + \cosh^2(\tau) \, \diff \Omega^2_3 
+		\end{align}
+	with $\diff \Omega_3^2 = \diff \chi^2 + \sin^2 \chi (\diff \theta^2 + \sin^2 \theta \diff \phi^2)$
+	which is the metric on a three-sphere $\Sp^3$.\footnote{A sphere is a n-dimensional manifold in Euclidean $(n+1)$~-~dimensional space.}
+	
+	Just for completion, a maximally symmetric spacetime with negative curvature $\kappa < 0$ is called anti-de Sitter space (futher reading: \cite{SpacetimeCarroll}).

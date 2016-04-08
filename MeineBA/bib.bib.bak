@@ -1,0 +1,37 @@
+% Encoding: UTF-8
+
+@Book{ARTfliesbach,
+  title =     {Allgemeine Relativitätstheorie},
+  publisher = {Spektrum},
+  author =    {Torsten Fließbach},
+  edition =   {5}
+}
+
+@Misc{JerusalemLectures,
+  author = {Daniel Harlow},
+  title =  {Jerusalem Lectures on Black Holes and Quantum Information}
+}
+
+@Book{MechanikFliesbach,
+  title =     {Mechanik},
+  publisher = {Spektrum},
+  author =    {Torsten Fließbach},
+  edition =   {6},
+  note =      {Lehrbuch zur Theoretischen Physik 1}
+}
+
+@Book{QEDbuch,
+  title =     {Quantum Electrodynamics},
+  publisher = {Cambridge monographs on particle physics, nuclear physics and cosmology},
+  author =    {V.N. Gribov, J. Nyiri},
+  edition =   {13},
+  note =      {Gibov Lectures on Theoretical Physics}
+}
+
+@Book{SpacetimeCarroll,
+  title =     {Spacetime and Geometry},
+  publisher = {Addison Wesley},
+  year =      {2004},
+  author =    {Sean Carroll},
+  note =      {An Introduction to General Relativity}
+}

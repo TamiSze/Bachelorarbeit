@@ -20,10 +20,10 @@ For example, we take a scalar field $\phi(x)$ where there is only a one degree o
 		\begin{equation}
 			S=-\frac{1}{2} \int \diff^4 x \left(\partial_\mu \phi \partial^\mu \phi + m^2\phi^2 \right)
 		\end{equation}
-	Where in general action is defined as: 
+	Where in general action is defined as \cite{MechanikFliesbach}: 
 		\begin{equation} 
 			S=S[q]= \int\limits_{t_1}^{t_2} \diff t \mathscr{L}(q,\dot q,t)
-		\end{equation} \marginpar{mech. fließbach}
+		\end{equation} 
 	In quantum mechanics, we are often interested in describing the ground state wavefunction $|\Omega\rangle$. If we do this for the free massive scalar field, we find out that \marginpar{[7]}
 		\begin{equation}
 			\langle\phi| \Omega\rangle \propto \exp\left[-\frac{1}{2} \int \diff^3 x \diff^3 y \phi(x)\phi(y) K(x,y)\right].
@@ -34,7 +34,7 @@ For example, we take a scalar field $\phi(x)$ where there is only a one degree o
 		\end{equation}
 	Here $r \equiv |x-y|$.
 	
-	$K(x,y)$ is often called a propagator and normaly includes at least four coordinates, two for the beginning state and two for the final state. If we want to include timeordering, we would use the Greenfunction which would be a theta function multiplied with the propagator: $G(\textbf{r}_2,t_2;\textbf{r}_1,t_1)=\Theta(t_2-t_1)\cdot K(\textbf{r}_2,t_2;\textbf{r}_1,t_1)$.\marginpar{QEDbuch}\\
+	$K(x,y)$ is often called a propagator and normaly includes at least four coordinates, two for the beginning state and two for the final state. If we want to include timeordering, we would use the Greenfunction which would be a theta function multiplied with the propagator: $G(\textbf{r}_2,t_2;\textbf{r}_1,t_1)=\Theta(t_2-t_1)\cdot K(\textbf{r}_2,t_2;\textbf{r}_1,t_1)$.\cite{QEDbuch}\\
 	
 	But we now would like to generalize theories with interactions, so we study the vaccum expectation values of products of Heisenberg picture fields which look like $\phi(t,x) \equiv e^{iHt} \phi(x) e^{-iHt}$. In our case of the free massive scalar field we have this equation for motion:
 		\begin{equation}  \label{EqOfMotion}

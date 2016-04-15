@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.29)  8 APR 2016 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.29)  15 APR 2016 14:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1097,11 +1097,6 @@ File: kruskal.pdf Graphic file (type pdf)
 Package pdftex.def Info: kruskal.pdf used on input line 4.
 (pdftex.def)             Requested size: 162.07272pt x 163.471pt.
  [3 <./kruskal.pdf>]
-Overfull \hbox (9.01778pt too wide) in paragraph at lines 48--48
-[]\T1/lmr/m/n/12 Wieso????? 
- []
-
-
 Underfull \hbox (badness 6047) in paragraph at lines 50--50
 []\T1/lmr/m/n/12 left blue
  []
@@ -1438,7 +1433,7 @@ ublic/lm/lmsy8.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msbm10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
 7.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (22 pages, 1203845 bytes).
+Output written on main.pdf (22 pages, 1203936 bytes).
 PDF statistics:
  609 PDF objects out of 1000 (max. 8388607)
  524 compressed objects within 6 object streams

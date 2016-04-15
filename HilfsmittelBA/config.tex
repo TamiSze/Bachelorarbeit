@@ -1,0 +1,77 @@
+%% encodings                                        
+\usepackage[T1]{fontenc}                            
+\usepackage[utf8]{inputenc}                         
+\usepackage[shorthands=off]{babel}                  
+\usepackage{lmodern}                                
+\usepackage{microtype}                              
+\usepackage{scrlayer-scrpage}                       
+\usepackage{enumerate}                              
+%\usepackage{enumitem}
+\usepackage{csquotes}                               
+\usepackage[backend=biber,style=numeric-comp]{biblatex}
+\bibliography{bib.bib}
+
+% %maths                                            
+\usepackage{amsmath, amsthm, amssymb, bm, bbm, mathtools, dsfont, mathrsfs}
+
+%commutative diagramms
+\usepackage{tikz-cd}
+
+% links, TODO
+\usepackage[pdftitle={Seminar: "K1 von Ringen"},pdfauthor={Julian Seipel}, pdfsubject={Seminararbeit}]{hyperref}
+%TODO: abschluss-projekt von tex-kurs heranziehen
+
+                                                    
+%special mathsymbols                                
+\newcommand{\C}{\mathds{C}}                         
+\newcommand{\R}{\mathds{R}}                         
+\newcommand{\N}{\mathds{N}}                         
+\newcommand{\Z}{\mathds{Z}}                         
+\newcommand{\Q}{\mathds{Q}}
+\newcommand{\pma}[1]{\begin{pmatrix} #1 \end{pmatrix}}
+\newcommand{\A}{\mathscr{A}}
+\newcommand{\F}{\mathbb{F}}                                                        
+%\newcommand{\SS}{\mathbb{S}}
+                    
+%%%%%%%%%%%%%%%%%%%%                                
+%theoremstyle                                       
+%\theoremstyle{definition}                           
+%\newtheorem*{Def}{Defintion}                        
+%\theoremstyle{plain}                               
+%\newtheorem{Beh}{Beh}                              
+%\newtheorem{Vor}{Vor}                                                    
+                          
+% math (theorems)                     
+\theoremstyle{definition}             
+\newtheorem{Def}{Definition}[section] 
+\newtheorem{Bsp}[Def]{Beispiel}       
+
+\theoremstyle{remark}               
+\newtheorem{Bem}[Def]{Bemerkung}      
+\newtheorem{Wdh}[Def]{Wiederholung}   
+
+\theoremstyle{plain}                  
+\newtheorem{Satz}[Def]{Satz}          
+\newtheorem*{satz}{Satz}              
+\newtheorem*{Beh}{Behauptung}
+\newtheorem{Lem}[Def]{Lemma}          
+\newtheorem{Kor}[Def]{Korollar}       
+\newtheorem{Fol}[Def]{Folgerung}      
+
+%stuff used only a few times                        
+\DeclareMathOperator{\f}{\varphi} 
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\K}{K_1}
+\DeclareMathOperator{\SK}{SK_1}
+\DeclareMathOperator{\E}{E}
+\DeclareMathOperator{\Mat}{Mat}
+\DeclareMathOperator{\diag}{diag}
+% \newcommand{\exxp}[1]{\exp \left( #1 \right)}       
+% \renewcommand{\sin}[1]{\sin \left( #1 \right)}      
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "main"
+%%% End:

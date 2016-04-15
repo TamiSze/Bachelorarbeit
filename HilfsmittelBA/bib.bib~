@@ -1,0 +1,37 @@
+@book{rosenberg1994algebraic,
+  title={Algebraic K-Theory and Its Applications},
+  author={Rosenberg, J.},
+  isbn={9780387942483},
+  lccn={96114570},
+  series={Algebraic K-theory and Its Applications},
+  url={https://books.google.de/books?id=TtMkTEZbYoYC},
+  year={1994},
+  publisher={Springer}
+}
+@book{weibel2013k,
+  title={The $K$-book: An Introduction to Algebraic $K$-theory},
+  author={Weibel, C.A.},
+  isbn={9780821891322},
+  lccn={2012039660},
+  series={Graduate Studies in Mathematics},
+  url={https://books.google.de/books?id=Ja8xAAAAQBAJ},
+  year={2013},
+  publisher={American Mathematical Society}
+}
+@book{bosch2012algebraic,
+  title={Algebraic Geometry and Commutative Algebra},
+  author={Bosch, S.},
+  isbn={9781447148296},
+  lccn={2012953696},
+  series={Universitext},
+  url={https://books.google.de/books?id=oZnzciVdQXcC},
+  year={2012},
+  publisher={Springer}
+}
+
+@misc{forre2014algebra,
+title= {Skript zur Vorlesung Algebra},
+author={Patrick Forre},
+year={2014}
+}
+

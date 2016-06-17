@@ -16,9 +16,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Basic ways of visualising the black hole problems on paper}{3}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}The Kruskal extension \text {$\mathsurround \z@ \mathchar "458$}(still questions)}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}The Kruskal extension \textbf {N}}{3}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Penrose diagrams}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Penrose diagrams}{4}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.1}of Minkowski space \text {$\mathsurround \z@ \mathchar "458$}}{5}{subsubsection.3.2.1}
 \defcounter {refsection}{0}\relax 
@@ -26,9 +26,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3}of Schwarzschild geometry \textbf {N}}{7}{subsubsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Classical black hole formation \text {$\mathsurround \z@ \mathchar "458$}}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Classical black hole formation \text {$\mathsurround \z@ \mathchar "458$}}{7}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}What is Quantum field theory? \textbf {N}}{9}{section.4}
+\contentsline {section}{\numberline {4}What is Quantum field theory? \textbf {N}}{8}{section.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}What is Entanglement and what is it good for? \textbf {N}}{11}{section.5}
 \defcounter {refsection}{0}\relax 
@@ -40,13 +40,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3}Entanglement in the Rindler decomposition \text {$\mathsurround \z@ \mathchar "458$}}{13}{subsection.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Schwarzschild modes \textbf {N}}{15}{section.7}
+\contentsline {section}{\numberline {7}Schwarzschild modes \textbf {N}}{14}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Information problem}{16}{section.8}
+\contentsline {section}{\numberline {8}Information problem}{15}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Black hole radiation}{16}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.1}Black hole radiation}{15}{subsection.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Entropy and thermodynamics \text {$\mathsurround \z@ \mathchar "458$}}{16}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.2}Entropy and thermodynamics \text {$\mathsurround \z@ \mathchar "458$}}{15}{subsection.8.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.3}Evaporation}{17}{subsection.8.3}
 \defcounter {refsection}{0}\relax 

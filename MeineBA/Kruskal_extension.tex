@@ -1,9 +1,9 @@
-\subsection{The Kruskal extension \textbf{N}}
+\subsection{The Kruskal extension \checkmark (still questions)}
 		\begin{figure}[htbp]
 			\begin{center}
 				\includegraphics[scale=1]{kruskal}
 			\end{center}
-			\caption{This is the $XT$ plane of the \textbf{Kruskal extension}. The horizons are the dashed lines. The blue wedges are the exterior, the green wedge is the future interior and the past interior is in red. Nothing can escape the green wedge into the blue wedges, because there is no radial null geodesic which would connect the wedges.}\label{kruskal}	
+			\caption{This is the $XT$ plane of the \textbf{Kruskal extension}. The horizons are the dashed lines. The {\color{blue} blue} wedges are the exterior, the {\color{forestgreen} green} wedge is the future interior and the past interior is in {\color{red} red}. Nothing can escape the {\color{forestgreen} green} wedge into the {\color{blue} blue} wedges, because there is no radial null geodesic which would connect the wedges.}\label{kruskal}	
 		\end{figure}
 	From here on, we will use $r_{s}=2GM=1$.
 	Instead of using the coordinates $(t,r,\Omega)$ like in the previous section, we now introduce the Kruskal-Szekeres coordinates, because they are a better choice for near-horizon physics.
@@ -16,17 +16,17 @@
 		\begin{equation} \label{r_*tortoise}
 			r_{*}\equiv r+\log (r-1).
 		\end{equation}
-	also called the \textit{tortoise coordinate}\footnote{The name \textit{"tortoise"} has its origin in the paradoxon of with Achilles and the tortoise.}, because now we have an infinite coordinate range that fits in a finite geodesic distance.
+	also called the \textit{tortoise coordinate}\footnote{The name \textit{"tortoise"} has its origin in the paradox of Achilles and the tortoise.}, because now we have an infinite coordinate range that fits in a finite geodesic distance.
 		
-		Now, the Kruskal-Szekeres coordinates are defined as
+	The Kruskal-Szekeres coordinates are then defined as
 		\begin{equation}
-			U\equiv -e^{\frac{r_*-t}{2}}
+			U\equiv -e^{\frac{r_*-t}{2}} \label{U}
 		\end{equation}
 		\begin{equation}
 			V\equiv e^{\frac{r_*+t}{2}}.
 		\end{equation}
 	%\clearpage			%vllt mal Marei fragen, wie man das besser mit den footnotes machen kann
-	Their lines of constant U and V are radial null geodesics and these coordinates have the feature, that
+	Their lines of constant U and V are radial null geodesics and these coordinates have the property, that
 		\begin{equation}
 			 UV=(1-r)e^r.
 		\end{equation}
@@ -47,6 +47,8 @@
 		\end{equation}
 	Note that there is now no singularity at $r=1$.
 	
-	This metric defines a geometry over the full XT plane, which looks like Figure \ref{kruskal}. The right blue wedge is, in the old Schwarzschild coordinates, former $r>1,~-\infty<t<\infty$ HIER FEHLT NOCHWAS. \marginpar{left blue wedge too?}
-		
-		For $r<1$ we are in the green region for $T>0,~X^2-T^2<0$ and in the red wedge for $T<0$ and still $X^2-T^2<0$. 
+	This metric defines a geometry over the full XT plane, which can be seen in Figure \ref{kruskal}. The \textbf{right {\color{blue} blue} wedge} is, in the old Schwarzschild coordinates, former $r>1,~-\infty<t<\infty$. If one wants to continue to $r<1$, there is a branch cut \marginpar{wie sieht dieser branch cut genau aus?} defined in \eqref{U}, which allows us to either go to the regions with $X^2-T^2<0$ and $T>0$ which is the \textbf{{\color{forestgreen} green} wedge}, or the \textbf{{\color{red} red} wedge} with $T<0$ and also $X^2-T^2<0$. At last we have the left {\color{blue} blue} wedge in which we also can have $r\gg1$. Both blue wedges are asymptotically Minkowski regions. 
+	
+	The singularity $r=0$, which you find at the top and the bottom of Figure \ref{kruskal}, is the hyperboloid $X^2-T^2=-1$. It has two connected components, one at each boundary of the {\color{forestgreen} green} and the {\color{red} red} regions. These two regions are also called the {\color{forestgreen} future} and the {\color{red} past} interiors, while the other two are called the original/new exteriors (right/left {\color{blue} blue} wedges).
+	
+	All regions together can interpret the full Schwarzschild metric as a wormhole connecting two nearly flat universes, both acting at $r\gg1$ as if there were a point source of mass $M$. Signals can not travel through the wormhole, but two observers coming from opposite sides could meet in the middle and compare notes. \marginpar{how the hell does he know that?}

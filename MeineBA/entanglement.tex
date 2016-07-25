@@ -1,10 +1,4 @@
 \section{What is Entanglement and what is it good for? \textbf{N}}
-	 \begin{figure}[tbp]
-	 	\begin{center}
-	 		\includegraphics[scale=1]{entangledcorr}
-	 		\caption{The boundary between these two regions is called the \textit{entangling surface}.}
-	 	\end{center}
-	 \end{figure}
 	In relativistic QFT, the ground state has correlations between field operators at spatially separated points. Here we can use \textit{entanglement} as an explanation.
 	
 	But at first, let's start from the beginning:
@@ -15,17 +9,23 @@
 		\end{equation}
 	 the quantum state is called \textit{pure}. If a state is not pure, it is \textit{mixed}.
 	 
-	 While doing an experiment, we will a measure a outcome $i$, which is always related to a projection operator $\Pi_i$ with a probalbility of measuring $i$, that looks like: 
+	 While doing an experiment, we will a measure a outcome $i$, which is always related to a projection operator $\Pi_i$ with a probability of measuring $i$, that looks like: 
 		 \begin{equation}
 	 		P(i)=\mathrm{tr}(\rho\Pi_i).
 	 	\end{equation}
-	 
+	 \begin{figure}[tbp]
+	 	\begin{center}
+	 		\includegraphics[scale=1]{entangledcorr}
+	 		\caption{The boundary between these two regions is called the \textit{entangling surface}.}
+	 	\end{center}
+	 \end{figure}
 	 For to find out, whether a given state $\rho$ is pure or mixed, we define a function $S$ for convenience:
 		\begin{equation}
 			S(\rho)\equiv -\mathrm{tr}(\rho \log \rho)
 		\end{equation}	 	
 	And $S(\rho)$ is called the \textit{Von Neumann Entropy} or \textit{information entropy}. 
 	Its proberties are:
+	\FloatBarrier
 	\begin{itemize}
 		\item[•] for any unitary operator $U$: $S(U^\dagger \rho U)=S(\rho)$
 		\item[•] $S(\rho)\geq 0$, with equality if and only if $\rho$ is pure. 
@@ -34,8 +34,9 @@
 		\begin{equation}
 			S \left(\sum_i \lambda_i \rho_i \right) \geq \sum_i \lambda_i S(\rho_i),
 		\end{equation}
-	while $\lambda_i$ is any set of non-negative numbers with $\sum_i \lambda_i =1$.
+			while $\lambda_i$ is any set of non-negative numbers with $\sum_i \lambda_i =1$.
 	\end{itemize}
+	\FloatBarrier
 	Now, let's have a look at an entangled state written in the two-qubit state:
 		\begin{equation}
 			|\Psi\rangle = \frac{1}{\sqrt{2}} \left(|00\rangle + |11\rangle \right)

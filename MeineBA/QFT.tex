@@ -1,4 +1,4 @@
-\section{What is Quantum field theory? \checkmark}
+\section{What is Quantum field theory? \checkmark} \label{QFT}
 	Here the Hilbert space is like an infinite tensor product over all points in space, while we have finite degrees of freedom at each point. 
 For example, we take a scalar field $\phi(x)$ where there is only a one degree of freedom at each spatial point. 
 
@@ -6,7 +6,7 @@ For example, we take a scalar field $\phi(x)$ where there is only a one degree o
 		\begin{equation}
 			H=\frac{1}{2}\int \diff^3 x \left(\pi(x)^2 + \vec{\nabla}\phi(x) \cdot \vec{\nabla}\phi(x) + m^2\phi(x)^2 \right).
 		\end{equation}
-	The funktion $\pi(x)$ is the canonical conjugated momentum to $\phi$ which can be put out to tender as $\frac{\partial \mathscr{L}}{\partial \dot{\phi}(x)}$. For beginners, the $\phi$ would be something like the spacial coordinate $x$ in theoretical mechanics and $\pi$ is the companian piece to $p$, the momentum.
+	The function $\pi(x)$ is the canonical conjugated momentum to $\phi$ which can be put out to tender as $\frac{\partial \mathscr{L}}{\partial \dot{\phi}(x)}$. For beginners, the $\phi$ would be something like the spacial coordinate $x$ in theoretical mechanics and $\pi$ is the companion piece to $p$, the momentum.
 	Together they obey
 		\begin{align}
 			\begin{split}
@@ -36,7 +36,7 @@ For example, we take a scalar field $\phi(x)$ where there is only a one degree o
 	%Here $r \equiv |x-y|$.	
 	$K(x,y)$ is a propagator and normally includes at least four coordinates, two for the beginning state and two for the final state. If we want to include time-ordering, we would use the Green's function which would be a Heaviside step function multiplied with this propagator: $G(\textbf{r}_2,t_2;\textbf{r}_1,t_1)=\Theta(t_2-t_1)\cdot K(\textbf{r}_2,t_2;\textbf{r}_1,t_1)$.\cite{QEDbuch}\\
 	
-	But we now would like to generalize theories with interactions, so we study the vaccum expectation values of products of Heisenberg picture fields which look like $\phi(t,x) \equiv e^{iHt} \phi(x) e^{-iHt}$. In our case of the free massive scalar field we have this solution of equation of motion:
+	But we now would like to generalize theories with interactions, so we study the vacuum expectation values of products of Heisenberg picture fields which look like $\phi(t,x) \equiv e^{iHt} \phi(x) e^{-iHt}$. In our case of the free massive scalar field we have this solution of equation of motion:
 		\begin{equation}  \label{EqOfMotion}
 			\phi(t,\vec{x}) = \int \frac{\diff^3 k}{(2\pi)^2} \frac{1}{\sqrt{2\omega_k}} 
 			\left[ a_{\vec{k}} e^{i(\vec{k}\cdot\vec{x}-\omega t)} +
@@ -83,7 +83,7 @@ For example, we take a scalar field $\phi(x)$ where there is only a one degree o
 	because of the translation invariance in vacuum and how $a_n$ and $a^{\dagger}_n$ act on the vacuum. In other words, it is forbidden, that one particle just arise from the vacuum but never vanishes oder that one particle had always existed end suddenly disappears. This is, why Quantum field theory is called a multiparticle theory.
 	
 	For a two-point function with equal times it looks like this:
-		\begin{equation}
+		\begin{equation} \label{correlationfct}
 			\langle \Omega| \phi(0,\vec{x})\phi(0,\vec{y}) |\Omega\rangle=
 			\frac{1}{4\pi^2}\frac{m}{|\vec{x}-\vec{y}|}K_1(m|\vec{x}-\vec{y}|).
 		\end{equation}
@@ -96,10 +96,12 @@ For example, we take a scalar field $\phi(x)$ where there is only a one degree o
 	
 	$K_1(m|\vec{x}-\vec{y}|)$ is some hyperbolic Besselfunction which is in general a solution of differential equation like the Klein-Gordon equation in hyperbolic coordinates. It contains an exponential function, which is, why we have the second point in the listing above. But I will not do further explanations about this function because it is not necessary here. \\
 	
+	We need to mention that \eqref{correlationfct} is a correlation function which is not only just valid in free scalar field theory but also is divergent in short distance power-law. 
+	
 	Now that we contemplate the two-point function without the time, we add the time difference to our calculations. But we need to order the function in time so we use the time-ordering operator $T$, so that the two-point function now is:
 		\begin{equation}
 			\langle \Omega| T \phi(t,\vec{x})\phi(t',\vec{y}) |\Omega\rangle=
 			\frac{1}{4\pi^2} \frac{m}{\sqrt{|\vec{x}-\vec{y}|^2-(t-t')^2+i\epsilon}}
 			K_1 \left( m\sqrt{|\vec{x}-\vec{y}|^2-(t-t')^2+i\epsilon}\right)
 		\end{equation} 
-	This is also called a \textit{transition amplitude}. T takes care that time increases. The factor $\epsilon$ should go to zero and reminds us, that there could be other ways of complex integration because of the square root not leading to the timelike-seperated points.
+	This is also called a \textit{transition amplitude}. T takes care that time increases while going left\marginpar{I think going left in a feynman diagram, but i am not sure}. The factor $\epsilon$ should go to zero and reminds us, that there could be other ways of complex integration because of the square root not leading to the timelike-seperated points.

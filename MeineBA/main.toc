@@ -22,7 +22,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.1}of Minkowski space \text {$\mathsurround \z@ \mathchar "458$}}{5}{subsubsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}of De Sitter space \text {$\mathsurround \z@ \mathchar "458$}}{6}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2}of De Sitter space \text {$\mathsurround \z@ \mathchar "458$}}{7}{subsubsection.3.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3}of Schwarzschild geometry \text {$\mathsurround \z@ \mathchar "458$}}{7}{subsubsection.3.2.3}
 \defcounter {refsection}{0}\relax 
@@ -32,7 +32,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}What is Entanglement and what is it good for? \textbf {N}}{12}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Rindler decomposition}{13}{section.6}
+\contentsline {section}{\numberline {6}Rindler decomposition}{14}{section.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1}What is Rindler space?}{14}{subsection.6.1}
 \defcounter {refsection}{0}\relax 
@@ -40,14 +40,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3}Entanglement in the Rindler decomposition \text {$\mathsurround \z@ \mathchar "458$}}{14}{subsection.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Schwarzschild modes \textbf {N}}{15}{section.7}
+\contentsline {section}{\numberline {7}Schwarzschild modes \textbf {N}}{16}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Information problem}{17}{section.8}
+\contentsline {section}{\numberline {8}Information problem}{18}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Black hole radiation}{17}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.1}Black hole radiation}{18}{subsection.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Entropy and thermodynamics \text {$\mathsurround \z@ \mathchar "458$}}{17}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.2}Entropy and thermodynamics \text {$\mathsurround \z@ \mathchar "458$}}{18}{subsection.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3}Evaporation}{18}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.3}Evaporation}{19}{subsection.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4}What happens to the information while evaporation? N}{18}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.4}What happens to the information while evaporation? N}{19}{subsection.8.4}

@@ -3,19 +3,20 @@
 @Book{ARTfliesbach,
   title =     {Allgemeine Relativitätstheorie},
   publisher = {Spektrum},
-  author =    {Torsten Fließbach},
+  author =    {T. Fließbach},
   edition =   {5}
 }
 
 @Misc{JerusalemLectures,
-  author = {Daniel Harlow},
-  title =  {Jerusalem Lectures on Black Holes and Quantum Information}
+  author = {D. Harlow},
+  title =  {Jerusalem Lectures on Black Holes and Quantum Information},
+  url =    {https://arxiv.org/abs/1409.1231}
 }
 
 @Book{MechanikFliesbach,
   title =     {Mechanik},
   publisher = {Spektrum},
-  author =    {Torsten Fließbach},
+  author =    {T. Fließbach},
   edition =   {6},
   note =      {Lehrbuch zur Theoretischen Physik 1}
 }
@@ -34,4 +35,17 @@
   year =      {2004},
   author =    {Sean Carroll},
   note =      {An Introduction to General Relativity}
+}
+
+@Book{StreaterWightman,
+  title =  {PCT, spin and statistics, and all that},
+  author = {R.Streater and A.Wightman}
+}
+
+@Book{stringtheory_revolution,
+  title =     {An introduction to black holes, information, and the string theory revolution},
+  publisher = {World Scientific Publishing Co. Pte. Ltd.},
+  year =      {2005},
+  author =    {L. Susskind, J. Lindesay},
+  note =      {The Holographic Universe}
 }

@@ -39,7 +39,7 @@
   \name{author}{1}{}{%
     {{}%
      {Fließbach}{F.}%
-     {Torsten}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
   }
@@ -57,7 +57,7 @@
   \name{author}{1}{}{%
     {{}%
      {Fließbach}{F.}%
-     {Torsten}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
   }
@@ -70,6 +70,42 @@
   \field{edition}{6}
   \field{note}{Lehrbuch zur Theoretischen Physik 1}
   \field{title}{Mechanik}
+\endentry
+
+\entry{JerusalemLectures}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Harlow}{H.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HD1}
+  \strng{fullhash}{HD1}
+  \field{sortinit}{H}
+  \field{title}{Jerusalem Lectures on Black Holes and Quantum Information}
+  \verb{url}
+  \verb https://arxiv.org/abs/1409.1231
+  \endverb
+\endentry
+
+\entry{StreaterWightman}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {R.Streater}{R.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {A.Wightman}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RA1}
+  \strng{fullhash}{RA1}
+  \field{sortinit}{R}
+  \field{title}{PCT, spin and statistics, and all that}
 \endentry
 
 \entry{QEDbuch}{book}{}

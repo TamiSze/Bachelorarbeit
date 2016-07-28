@@ -34,22 +34,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Rindler decomposition}{14}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Euclidean path integral}{15}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.1}Eigenstate and Euklidean path integral in general \text {$\mathsurround \z@ \mathchar "458$}}{15}{subsection.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}What is Rindler space?}{15}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.2}The ground states of the Rindler wedges N}{16}{subsection.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}The Unruh temperature}{15}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.3}The Unruh temperature N}{17}{subsection.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Entanglement in the Rindler decomposition \text {$\mathsurround \z@ \mathchar "458$}}{15}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.4}Entanglement in the Rindler decomposition \text {$\mathsurround \z@ \mathchar "458$}}{17}{subsection.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Schwarzschild modes \textbf {N}}{16}{section.7}
+\contentsline {section}{\numberline {7}Schwarzschild modes \textbf {N}}{17}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Information problem}{18}{section.8}
+\contentsline {section}{\numberline {8}Information problem}{20}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Black hole radiation}{18}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.1}Black hole radiation N}{20}{subsection.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Entropy and thermodynamics \text {$\mathsurround \z@ \mathchar "458$}}{18}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.2}Entropy and thermodynamics \text {$\mathsurround \z@ \mathchar "458$}}{20}{subsection.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3}Evaporation}{19}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.3}Evaporation N}{21}{subsection.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4}What happens to the information while evaporation? N}{19}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.4}What happens to the information while evaporation? N}{21}{subsection.8.4}

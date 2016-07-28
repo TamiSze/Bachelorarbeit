@@ -89,6 +89,26 @@
   \endverb
 \endentry
 
+\entry{PaS}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Peskin}{P.}%
+     {M.E.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schroeder}{S.}%
+     {D.V.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PMSD1}
+  \strng{fullhash}{PMSD1}
+  \field{sortinit}{P}
+  \field{title}{An Introduction to Quantum Field Theory}
+  \field{year}{1995}
+\endentry
+
 \entry{StreaterWightman}{book}{}
   \name{author}{2}{}{%
     {{}%

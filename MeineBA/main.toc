@@ -38,18 +38,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2}The ground states of the Rindler wedges \text {$\mathsurround \z@ \mathchar "458$}(bis auf Fragen)}{16}{subsection.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}The Unruh temperature N}{17}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.3}In free massive scalar theory}{17}{subsection.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Entanglement in the Rindler decomposition \text {$\mathsurround \z@ \mathchar "458$}}{17}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.4}The Unruh temperature N}{17}{subsection.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5}Entanglement in the Rindler decomposition \text {$\mathsurround \z@ \mathchar "458$}}{17}{subsection.6.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}Schwarzschild modes \textbf {N}}{18}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Information problem}{19}{section.8}
+\contentsline {section}{\numberline {8}Information problem}{21}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Black hole radiation N}{19}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.1}Black hole radiation N}{21}{subsection.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Entropy and thermodynamics \text {$\mathsurround \z@ \mathchar "458$}}{19}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.2}Entropy and thermodynamics \text {$\mathsurround \z@ \mathchar "458$}}{21}{subsection.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3}Evaporation N}{21}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.3}Evaporation N}{22}{subsection.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4}What happens to the information while evaporation? N}{21}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.4}What happens to the information while evaporation? N}{22}{subsection.8.4}

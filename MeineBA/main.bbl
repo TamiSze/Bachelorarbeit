@@ -148,6 +148,27 @@
   \field{title}{Quantum Electrodynamics}
 \endentry
 
+\entry{Brenig}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {W.Brenig}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {4}{.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{title}{Statistische Theorie der Wärme}
+\endentry
+
 \lossort
 \endlossort
 

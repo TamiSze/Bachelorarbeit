@@ -21,6 +21,12 @@
   note =      {Lehrbuch zur Theoretischen Physik 1}
 }
 
+@Book{PaS,
+  title =  {An Introduction to Quantum Field Theory},
+  year =   {1995},
+  author = {M.E. Peskin and D.V. Schroeder}
+}
+
 @Book{QEDbuch,
   title =     {Quantum Electrodynamics},
   publisher = {Cambridge monographs on particle physics, nuclear physics and cosmology},

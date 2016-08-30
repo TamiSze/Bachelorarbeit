@@ -1,0 +1,24 @@
+\subsection{Entanglement in the Rindler decomposition \checkmark}
+	What happens, if we want to cross the $x=0$ surface? For finding that out, we put the system in a mixed state with
+		\begin{equation} \label{mixed_state_firewall}
+			\rho=\rho_L \otimes \rho_R
+		\end{equation}
+	instead of having a ground state $|\Omega\rangle$. Here $\rho_L$ and $\rho_R$ are the thermal density matrices, which we get if we trace out the respectively other one in the vacuum $|\Omega\rangle$.
+	If the fields are completely discontinuous like in \eqref{mixed_state_firewall} , the gradient term of the Hamiltonian will diverge at $x=0$. If you are an observer in the left or right Rindlers wedge it seems, that you just have vacuum state, but the energy is infinite. 
+	
+	Its typical field fluctuation is given by $\frac{1}{\epsilon}$ where $\epsilon$ is a short-distance length cutoff. \marginpar{was ist damit genau gemeint?} So it is valid that
+		\begin{equation}
+			\partial_x \phi|_{x=0} \propto \frac{1}{\epsilon^2}.
+		\end{equation}
+	Which means, that the gradient term in the Hamiltonian contributes
+		\begin{equation}
+			\diff x \int \diff^2 y (\partial_x\phi)^2 \propto 
+			\epsilon \int \diff^2 y \frac{1}{\epsilon^4} 
+			= \frac{A}{\epsilon^3}
+		\end{equation}	
+	The smaller $\epsilon$ is the bigger becomes the energy and $\epsilon$ is even to the third power.
+	 			
+	This is called a \textit{firewall}: A huge concentration of energy at $x=0$, that annihilates anybody who tries to jump through the Rindler horizon into the future wedge.
+	
+	For example the product states $|00\rangle$ and $|11\rangle$ of the states $\frac{1}{\sqrt{2}}
+	(|00\rangle \pm |11\rangle)$ which shall both have smooth horizons, should have them too, because of linearity of quantum mechanics. But as we just saw, no product state possibly can have a smooth horizon in QFT. So, for going smoothly through the Rindlers horizon we need not only any entanglement but it must have the \textit{right entanglement} too.

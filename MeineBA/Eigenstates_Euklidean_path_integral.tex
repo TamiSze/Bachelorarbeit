@@ -1,0 +1,36 @@
+\subsection{Eigenstate and Euklidean path integral in general \checkmark}
+	We now introduce the Euclidean path integral because we want to find the eigenstates of the left and right Rindler wedges. 
+	
+	First of all we have a ground state $\ket{\Omega}$ of $H$ and a vacuum state $\ket{0}$, so we can write for a very long time $T$
+	\begin{align*}
+		e^{-iHT}\ket{0} &= \sum_n e^{-iE_n T} \ket{n}\braket{n|0} \\
+		&= e^{-iE_0 T} \ket{\Omega} \braket{\Omega|0} 
+		+ \sum_{n\neq 0} e^{-iE_n T} \ket{n} \braket{n|0}
+	\end{align*}
+	Now we enclose and get the ground state
+	\begin{align*}
+		\ket{\Omega} &= \lim\limits_{T \rightarrow \infty} \frac{e^{iE_0 T}}{\braket{\Omega|0}} \,e^{-iHT} \ket{0}
+	\end{align*}
+	We can define $E_0$ with $H_0\ket{0}=\ket{0}$ so
+	\begin{align*}
+		\ket{\Omega} &=  \frac{1}{\braket{\Omega|0}} \lim\limits_{T \rightarrow \infty} e^{-iHT} \ket{0}
+	\end{align*}
+	(see p.86 in \cite{PaS}) But this equation does still tell us nothing about the entanglement. So let's continue: \\
+	Let a time-independent field $\phi$ %, which is a field configuration at $t=0$,
+	act on this ground state:
+	\begin{align*} \label{groundstate_phi}
+		\braket{\phi|\Omega} &= \frac{1}{\braket{\Omega|0}} \lim\limits_{T\rightarrow \infty} \braket{\phi|e^{-iHT}|0} 
+	\end{align*}
+	Now use the Euclidean path integral formalism, rotate $t$ about 90$^\circ$ into the complex plane: $t \rightarrow -i t_E$ and choose the early boundary condition $\phi=0$, so that
+	\begin{align}
+		\braket{\phi|\Omega} \propto \int_{\hat{\phi}(t_E = -\infty)= 0}^{\hat{\phi}(t_E = 0)=\phi} D\hat{\phi}e^{-I_E}
+	\end{align}
+	with the Euclidean action for a free massive scalar field
+	\begin{align}
+		I_E[\hat{\phi}] = \frac{1}{2} \int \diff^3x \diff t_E \left[
+			(\partial_{t_E}\hat{\phi})^2 
+			+ (\vec{\nabla}\hat{\phi})^2
+			+ m^2\hat{\phi}^2
+		\right]
+	\end{align}
+	Note that $\hat{\phi}$ compared to $\phi$ is time-dependent.

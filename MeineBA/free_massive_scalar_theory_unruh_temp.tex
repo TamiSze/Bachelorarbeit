@@ -1,0 +1,34 @@
+\subsection{In free massive scalar theory}	
+	Let's search solutions for the free massive scalar theory in Rindler decomposition to have an example. First, we introduce hyperboloidal coordinates for the right and left wedge in \textbf{Figure \ref{Rindler}} omitting a length scale $\ell$ because of simplicity (see next subsection \ref{Unruh}).
+	\begin{align} \label{rindler_coordinates}
+		\begin{split}
+		x &= e^{\xi_R} \cosh \tau_R = -e^{-\xi_L} \cosh \tau_L \\
+		t &= e^{\xi_R} \sinh \tau_R = e^{-\xi_L} \sinh \tau_L
+		\end{split}
+	\end{align}
+	The coordinate ranges are: $-\infty < \xi_{L,R} < \infty,~ -\infty < \tau_{L,R} < \infty$.
+	And the translation of $\tau_R$ forwards and $\tau_L$ backwards in time is the evolution of the boost operator $K_x$, while the $\xi_{L,R}$ coordinates form hyperboloidal orbits of $K_x$. They only cover the blue wedges of \ref{Rindler} but not the future or past Rindler wedges. There are so called Rindler horizons at $\xi_R=-\infty$ and $\xi_L=\infty$ but they are again just there because of choice of coordinates and not actual event horizons. 
+	We get the corresponding metric by plugging in \eqref{rindler_coordinates} into $\diff s^2 = -\diff t^2 + \diff x^2 + \diff \vec{y}^2$:
+	\begin{align}
+		\diff s^2 = e^{2\xi_R} (-\diff \tau_R^2 + \diff \xi_R^2) + \diff \vec{y}^2 
+		= e^{-2\xi_L} (-\diff \tau_L^2 + \diff \xi_L^2) + \diff \vec{y}^2
+ 	\end{align}
+ 	The solutions of the massive wave equation should now be of the form:
+	\begin{align}
+		\begin{split}
+		f_{R\omega k} &= e^{-i\omega \tau_R} e^{i\vec{k}\dot \vec{y}} \psi_{Rk\omega}(\xi_R) \\
+		f_{L\omega k} &= e^{-i\omega \tau_L} e^{i\vec{k}\dot \vec{y}} \psi_{Lk\omega}(\xi_L)
+		\end{split}
+	\end{align}
+	Note that $\omega > 0$ and the $\psi$s obey the equations
+	\begin{align}
+	\begin{split}
+		\left[
+			-\partial^2_{\xi_R} + (m^2 + \vec{k}^2) e^{2\xi_R} - \omega^2
+		\right] \psi_{Rk\omega} &= 0 \\
+		\left[
+			-\partial^2_{\xi_L} + (m^2 + \vec{k}^2) e^{-2\xi_L} - \omega^2
+		\right] \psi_{Lk\omega} &= 0
+	\end{split}
+	\end{align} 
+\subsection{The Unruh temperature N} \label{Unruh}

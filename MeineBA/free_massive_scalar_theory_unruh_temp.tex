@@ -1,4 +1,4 @@
-\subsection{In free massive scalar theory}	
+\subsection{In free massive scalar theory \checkmark}	
 	Let's search solutions for the free massive scalar theory in Rindler decomposition to have an example. First, we introduce hyperboloidal coordinates for the right and left wedge in \textbf{Figure \ref{Rindler}} omitting a length scale $\ell$ because of simplicity (see next subsection \ref{Unruh}).
 	\begin{align} \label{rindler_coordinates}
 		\begin{split}
@@ -14,7 +14,7 @@
 		= e^{-2\xi_L} (-\diff \tau_L^2 + \diff \xi_L^2) + \diff \vec{y}^2
  	\end{align}
  	The solutions of the massive wave equation should now be of the form:
-	\begin{align}
+	\begin{align} \label{modes}
 		\begin{split}
 		f_{R\omega k} &= e^{-i\omega \tau_R} e^{i\vec{k}\dot \vec{y}} \psi_{Rk\omega}(\xi_R) \\
 		f_{L\omega k} &= e^{-i\omega \tau_L} e^{i\vec{k}\dot \vec{y}} \psi_{Lk\omega}(\xi_L)
@@ -31,4 +31,23 @@
 		\right] \psi_{Lk\omega} &= 0
 	\end{split}
 	\end{align} 
+	These are in fact just the Schrödinger equations of non-relativistic particles in an exponential potential. We could write down the solution in terms of Bessel functions, but for us it is enough to have a look at the normalizable solutions, in other words, the Klein-Gordon norm from \eqref{KG-norm}. They oscillate at negative $\xi_R$, accordingly positive $\xi_L$, and decay exponentially at positive $\xi_R$, accordingly negative $\xi_L$.
+	
+	Those modes in \eqref{modes} are having certain boost energies, namely $\omega$ in the right wedge and $-\omega$ in the left wedge. The field which we formulate in terms of them looks as follows:
+	\begin{align}
+		\phi = \sum_{\omega, k} 
+		\left(
+			f_{R\omega k} a_{R\omega k} + f_{L\omega k}a_{L\omega k} + f^*_{R\omega k} a^\dagger_{R\omega k} + f^*_{L\omega k} a^\dagger_{L\omega k}
+		\right)
+	\end{align}
+	Here $a^\dagger_{L,R\omega k}$ is again a creation operator which creates states on the Rindler vacuum state $\ket{0}$ with the boost energies we discussed above. And of course $a_{L,R\omega k}$ annihilates those created states. 
+	
+	Now it is possible to rewrite the ground state of \eqref{groundstate} into a product state over all modes:
+	\begin{align}
+		\ket{\Omega} = \bigotimes_{\omega, k} 
+		\left[
+			\sqrt{1-e^{-2\pi \omega}} \sum_n e^{-\pi \omega n} \ket{n}_{L \omega (-k)} \ket{n}_{R \omega k}
+		\right]
+	\end{align}
+	The number of particles on top of the Rindler vacuum is considered by $n$ in each mode. Note, that there is a sign flip of k, which comes from the CPT configuration earlier.\marginpar{ich verstehs ned so ganz} In other words, the operator $\Theta$ sends $\tau_R \rightarrow -\tau_L,~ \xi_R \rightarrow -\xi_L,$ and $\vec{y}$ to itself. If we apply this to the right-hand modes $f_{R\omega k}$ it sends positive frequency modes to negative frequency modes. This means we have to take the complex conjugate to get the coefficient of the annihilation operator, and this flips the sign of $k$.
 \subsection{The Unruh temperature N} \label{Unruh}

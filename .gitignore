@@ -45,3 +45,19 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# ignore all nonrelevant tex file eg .log,.aux,.sty
+*.log
+*.aux
+*.out
+*.toc
+*.sty
+*.bbl
+*.blg
+*.gz
+
+# ignore all backup file, because this is redundant if you are using
+# github as a backup and version program
+*.bak
+
+

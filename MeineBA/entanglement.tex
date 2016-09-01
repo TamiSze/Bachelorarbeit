@@ -2,10 +2,15 @@
 	In relativistic QFT, the ground state has correlations between field operators at spatially separated points. Here we can use \textit{entanglement} as an explanation.
 	
 	But at first, let's start from the beginning:
-	\\
-	We have $\rho$ which is a quantum state on Hilbert space $\Hil$ and is called \textit{density matrix}. Quantum states are illustrated in operators, here: $\rho$ is a non-negative hermitian operator of trace 1. If it can be written in the form\footnote{Here $|\psi\rangle$ is some element of $\Hil$ with norm 1.}
+
+
+	We have $\rho$ which is a quantum state on Hilbert space $\Hil$ and is called \textit{density matrix}. Quantum states are illustrated in operators, here: $\rho$ is a non-negative hermitian operator of trace $1$. If it can be written in the form\footnote{Here $|\psi\rangle$ is some element of $\Hil$ with norm $1$.}
+%		\begin{equation}
+%			\rho=|\psi\rangle \langle\psi|,
+%		\end{equation}
+% it´s better with a handy marko
 		\begin{equation}
-			\rho=|\psi\rangle \langle\psi|,
+			\rho=\bra{\psi}\ket{\psi},
 		\end{equation}
 	 the quantum state is called \textit{pure}. If a state is not pure, it is \textit{mixed}.
 	 
@@ -18,32 +23,35 @@
 			S(\rho)\equiv -\mathrm{tr}(\rho \log \rho)
 		\end{equation}	 	
 	And $S(\rho)$ is called the \textit{Von Neumann Entropy} or \textit{information entropy}. 
-	Its proberties are:
-	\FloatBarrier
-	\begin{itemize}
-		\item[•] for any unitary operator $U$: $S(U^\dagger \rho U)=S(\rho)$
-		\item[•] $S(\rho)\geq 0$, with equality if and only if $\rho$ is pure. 
-		\item[•] for $d$ is the dimension of $\Hil$: $S(\rho)\leq \log d$, with equality if and only if $\rho$ is maximally mixed.
-		\item[•] The entropy of the average over a set of states is at least equal to the average of all their individual entropies. This is also called \textit{concavity} and is defined as:
+	Its properties are:
+%	\FloatBarrier
+\todo{why a floatbarrier?}
+%nutze hier enumerate
+	\begin{enumerate}[\hspace{0.5cm}•]
+		\item for any unitary operator $U$: $S(U^\dagger \rho U)=S(\rho)$
+		\item $S(\rho)\geq 0$, with equality if and only if $\rho$ is pure. 
+		\item for $d$ is the dimension of $\Hil$: $S(\rho)\leq \log d$, with equality if and only if $\rho$ is maximally mixed.
+		\item The entropy of the average over a set of states is at least equal to the average of all their individual entropies. This is also called \textit{concavity} and is defined as:
 		\begin{equation}
 			S \left(\sum_i \lambda_i \rho_i \right) \geq \sum_i \lambda_i S(\rho_i),
 		\end{equation}
 			while $\lambda_i$ is any set of non-negative numbers with $\sum_i \lambda_i =1$.
-	\end{itemize}
+	\end{enumerate}
 	\FloatBarrier
-	Now, let's have a look at an entangled state written in the two-qubit state:
+	Now, let's have a look at an entangled state written in the two-qubit state:\todo{warum steht links bra und rechts ket?}
 		\begin{equation}
-			|\Psi\rangle = \frac{1}{\sqrt{2}} \left(\ket{00} + \ket{11} \right)
+			\bra{\Psi} = \frac{1}{\sqrt{2}} \left(\ket{00} + \ket{11} \right)
 		\end{equation}
 	Here, the full state is pure, but the reduced state on either qubit ($\ket{00}$ or $\ket{11}$) is mixed. \\
 	
 	Just a short explanation what 'qubits' are: \\
 	It is the spin $1/2$-particle system with a standard basis $\{\ket{0}, \ket{1}\}$. So the particles can just have spin 'up' or 'down'. A ket in the form $\ket{00}$ for example, the first particle has spin up in one region, the second spin up in an other region.
-	\\ \\	
+%	\\ \\	
+	\vspace{0.7cm}
 	In \textbf{Figure \ref{entangling_surface}} the Hilbert space was decomposed into a tensor product of the degrees of freedom in a region $A$ and the its complement $B$. From the end of chapter \ref{QFT} we know that the correlation functions are divergent at short distances which means that, if the two points at the boundary between $A$ and $B$, the correlation becomes infinite. But what does that mean in respect to entanglement? Well, in the ground state there must be an infinite amount of entanglement between neighboring regions. 
 	
 	
-	Another way of illustrating entanglement in QFT is the Reeh-Schlieder theorem \footnote{If you are interested in the detail \cite{StreaterWightman}}. This says, that while acting on the vacuum $\ket{\Omega}$ with operators of any region $A$, a set of states which is dense in full Hilbert space can be produced. This means if a local operator acts on the vacuum for example in your bedroom, we can create the moon. This is possible because of the highly entangled nature of the vacuum. \marginpar{Soll ich das wirklich reinschreiben?} 
+	Another way of illustrating entanglement in QFT is the Reeh-Schlieder theorem \footnote{If you are interested in the detail \cite{StreaterWightman}}. This says, that while acting on the vacuum $\ket{\Omega}$ with operators of any region $A$, a set of states which is dense in full Hilbert space can be produced. This means if a local operator acts on the vacuum for example in your bedroom, we can create the moon. This is possible because of the highly entangled nature of the vacuum. \todo{Soll ich das wirklich reinschreiben?} 
 	
 %	Bipartite systems are the ones whose Hilbert space can be written as a tensor product\footnote{Watch out! The tensor product $\otimes$ is not the direct sum $\oplus$.}:
 %	 	\begin{equation}

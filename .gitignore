@@ -59,5 +59,6 @@ Temporary Items
 # ignore all backup file, because this is redundant if you are using
 # github as a backup and version program
 *.bak
-
+main-blx.bib
+*.xml
 

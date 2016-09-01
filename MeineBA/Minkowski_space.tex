@@ -1,6 +1,6 @@
 \subsection{Minkowski space \checkmark}
 	First we need to know what a metric is. 
-	The mathematical definition is as follows[see differentialgeometrie.pdf p.85]
+	The mathematical definition is as follows[see differentialgeometrie.pdf p.85] \todo{why not a cite{?}}
 	A metric
 	$ d:X\times X \rightarrow \R$ is a function, that satisfies the conditions:
 		\begin{enumerate}[(i)]
@@ -12,13 +12,15 @@
 	 
 	But in physics, we express the metric as an invariant line element:
 		\begin{equation}
-		 	\diff s^2 = g_{\mu\nu} \diff x^\mu \diff x^\nu
+		 	\d s^2 = g_{\mu\nu} \d x^\mu \d x^\nu
 		\end{equation}
-	so for getting $d(x,y)$ one have to take the square root of $\diff s^2$ and integrate. $g_{\mu\nu}(x)$ is the \textit{metric tensor}.
+		\todo{dies funktioniert nur wenn du eine riemannische metrik hast, aber für den lorentzfall liefert das keine metrik im	obigen sinne, denn das wurzel ziehen liefert hier keine reelle zahl und greift die obige definition nicht mehr, auch ein übergang ist komplexe kann hier nicht funktionieren, denn dort würden ii) und iii) keinen sinn mehr ergeben da sich die komplexen zahlen nicht anordnen lassen}
+			so for getting $d(x,y)$ one have to take the square root of $\d s^2$ and integrate. $g_{\mu\nu}(x)$ is the \textit{metric tensor}.
 	 
-	 For the of ordinary Minkowski space the metric tensor is now $g_{\mu\nu}(x) = \eta_{\mu\nu}$ so that
+	 For the ordinary Minkowski space the metric tensor is now $g_{\mu\nu}(x) = \eta_{\mu\nu}$
+	 so that
 		\begin{equation}
-			\diff s^2=- \diff t^2 + \diff x^2 + \diff y^2 + \diff z^2 = \eta_{\mu\nu} \diff x^\mu \diff x^\nu
+			\d s^2=- \d t^2 + \d x^2 + \d y^2 + \d z^2 = \eta_{\mu\nu} \d x^\mu \d x^\nu.
 		\end{equation}
 	Where $\eta_{\mu\nu}$ is of the form
 

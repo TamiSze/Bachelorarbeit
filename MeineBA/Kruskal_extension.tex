@@ -8,15 +8,15 @@
 	From here on, we will use $r_{s}=2GM=1$.
 	Instead of using the coordinates $(t,r,\Omega)$ like in the previous section, we now introduce the Kruskal-Szekeres coordinates, because they are a better choice for near-horizon physics.
 	
-	First we parametrize the radial null geodesics in the Schwarzschild geometry as
+	First we parametrize the radial null geodesics \todo{was sind geodäten? lösungen der geodätengleichung, vielleicht eine fussnote?}in the Schwarzschild geometry as
 		\begin{equation}
 			t=\pm r_{*} + C,
 		\end{equation}
-	where C is some constant of motion and $r_{*}$ is a new radial coordinate defined as
+	where $C$ is some constant of motion and $r_{*}$ is a new radial coordinate defined as
 		\begin{equation} \label{r_*tortoise}
 			r_{*}\equiv r+\log (r-1).
 		\end{equation}
-	also called the \textit{tortoise coordinate}\footnote{The name \textit{"tortoise"} has its origin in the paradox of Achilles and the tortoise.}, because now we have an infinite coordinate range that fits in a finite geodesic distance.
+	also called the \textit{tortoise coordinate}\footnote{The name \textit{"tortoise"} has its origin in the paradox of Achilles and the tortoise.}, because now we have an infinite coordinate range that fits in a finite geodesic distance. \todo{was meint hier geodesic distance? ist gemeint dass das diagramm nun kompakt ist?}
 		
 	The Kruskal-Szekeres coordinates are then defined as
 		\begin{equation}
@@ -26,15 +26,15 @@
 			V\equiv e^{\frac{r_*+t}{2}}.
 		\end{equation}
 	%\clearpage			%vllt mal Marei fragen, wie man das besser mit den footnotes machen kann
-	Their lines of constant U and V are radial null geodesics and these coordinates have the property, that
+	Their lines of constant $U$ and $V$ are radial null geodesics and these coordinates have the property, that
 		\begin{equation}
 			 UV=(1-r)e^r.
 		\end{equation}
 	This means we have a singularity at $UV=1$ and the horizon is at $U=0$ or $V=0$. The metric looks now like
 		\begin{equation}
-			\diff s^2=-\frac{2}{r}e^{-r}\left(\diff U \diff V + \diff V \diff U\right)+r^2 \diff \Omega^2_{2}
+			\d s^2=-\frac{2}{r}e^{-r}\left(\d U \d V + \d V \d U\right)+r^2 \d \Omega^2_{2}
 		\end{equation}
-	Because this metric still has an off-diagonal tensor, we define another set of coordinates
+	Because this metric still has an off-diagonal tensor\todo{? was soll das sein?}, we define another set of coordinates
 		\begin{equation}
 		\begin{split}
 			U=T-X 	\\	
@@ -43,7 +43,7 @@
 		\end{equation}
 	Now the metric looks as follows:
 		\begin{equation}\label{SchXT}
-			\diff s^2=\frac{4}{r}e^{-r}\left(- \diff T^2+ \diff X^2\right)+r^2 \diff \Omega^2_2
+			\d s^2=\frac{4}{r}e^{-r}\left(- \d T^2+ \d X^2\right)+r^2 \d \Omega^2_2
 		\end{equation}
 	Note that there is now no singularity at $r=1$.
 	

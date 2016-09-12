@@ -45,3 +45,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# personal ignore data	
+.aux
+.log
+.ccl
+.sty
+.gz
+.xml
+.blg
+.bcv
+.toc
+.bbls

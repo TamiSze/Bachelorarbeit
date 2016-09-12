@@ -50,11 +50,10 @@ Temporary Items
 .aux
 .log
 .ccl
-.sty
 .gz
 .xml
 .blg
 .bcv
 .toc
-.bbls
+.bbl
 .out

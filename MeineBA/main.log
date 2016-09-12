@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.9)  12 SEP 2016 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.9)  12 SEP 2016 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,32 +1134,32 @@ File: kruskal.pdf Graphic file (type pdf)
 Package pdftex.def Info: kruskal.pdf used on input line 4.
 (pdftex.def)             Requested size: 162.07272pt x 163.471pt.
  [3]
-Underfull \hbox (badness 1675) in paragraph at lines 50--50
+Underfull \hbox (badness 1675) in paragraph at lines 51--51
 []\T1/lmr/m/n/12 wie sieht
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \T1/lmr/m/n/12 dieser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \T1/lmr/m/n/12 branch
  []
 
 [4 <./kruskal.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 []\T1/lmr/m/n/12 how the
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 54--54
+Underfull \hbox (badness 1675) in paragraph at lines 55--55
 \T1/lmr/m/n/12 hell does
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 54--54
+Underfull \hbox (badness 5302) in paragraph at lines 55--55
 \T1/lmr/m/n/12 he know
  []
 
@@ -1188,7 +1188,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 21.
 
-[5] <flatpenrose.pdf, id=256, 254.96pt x 180.14322pt>
+[5] <flatpenrose.pdf, id=261, 254.96pt x 180.14322pt>
 File: flatpenrose.pdf Graphic file (type pdf)
  <use flatpenrose.pdf>
 Package pdftex.def Info: flatpenrose.pdf used on input line 65.
@@ -1218,7 +1218,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 79.
 
-<dspenrose.pdf, id=259, 161.403pt x 182.32744pt>
+<dspenrose.pdf, id=264, 161.403pt x 182.32744pt>
 File: dspenrose.pdf Graphic file (type pdf)
  <use dspenrose.pdf>
 Package pdftex.def Info: dspenrose.pdf used on input line 83.
@@ -1244,14 +1244,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 96.
 
-[7 <./dspenrose.pdf>] <schpenrose.pdf, id=312, 336.55371pt x 180.11836pt>
+[7 <./dspenrose.pdf>] <schpenrose.pdf, id=316, 336.55371pt x 180.11836pt>
 File: schpenrose.pdf Graphic file (type pdf)
 
 <use schpenrose.pdf>
 Package pdftex.def Info: schpenrose.pdf used on input line 110.
 (pdftex.def)             Requested size: 336.55289pt x 180.11792pt.
 ) (./black_hole_formation.tex
-<collapse.pdf, id=313, 281.85088pt x 169.57407pt>
+<collapse.pdf, id=317, 281.85088pt x 169.57407pt>
 File: collapse.pdf Graphic file (type pdf)
  <use collapse.pdf>
 Package pdftex.def Info: collapse.pdf used on input line 4.
@@ -1368,13 +1368,13 @@ Overfull \hbox (3.47406pt too wide) in paragraph at lines 46--46
 \T1/lmr/m/n/12 schreiben? 
  []
 
-<entangledcorr.pdf, id=388, 246.07516pt x 109.83847pt>
+<entangledcorr.pdf, id=390, 246.07516pt x 109.83847pt>
 File: entangledcorr.pdf Graphic file (type pdf)
  <use entangledcorr.pdf>
 Package pdftex.def Info: entangledcorr.pdf used on input line 56.
 (pdftex.def)             Requested size: 246.07455pt x 109.83818pt.
 
-[13]) (./Rindler.tex <boost.pdf, id=399, 163.04997pt x 162.20601pt>
+[13]) (./Rindler.tex <boost.pdf, id=401, 163.04997pt x 162.20601pt>
 File: boost.pdf Graphic file (type pdf)
 
 <use boost.pdf>
@@ -1517,7 +1517,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--27
 \T1/lmr/m/n/12 di-men-
  []
 
-<eucpath.pdf, id=443, 347.38756pt x 173.63744pt>
+<eucpath.pdf, id=445, 347.38756pt x 173.63744pt>
 File: eucpath.pdf Graphic file (type pdf)
  <use eucpath.pdf>
 Package pdftex.def Info: eucpath.pdf used on input line 30.
@@ -1550,7 +1550,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
  []
 
 
-LaTeX Warning: Citation 'scholar_Unruh' on page 18 undefined on input line 58.
+LaTeX Warning: Citation 'scholarUnruh' on page 18 undefined on input line 58.
 
 [18]) (./entanglement_Rindler.tex
 
@@ -1588,13 +1588,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 \T1/lmr/m/n/12 genau
  []
 
-) (./fixed_black_hole.tex) (./Schwarzschild_modes.tex
-<plots_of_V.jpg, id=505, 401.5pt x 401.5pt>
+) (./fixed_black_hole.tex [19]) (./Schwarzschild_modes.tex
+<plots_of_V.jpg, id=514, 401.5pt x 401.5pt>
 File: plots_of_V.jpg Graphic file (type jpg)
  <use plots_of_V.jpg>
 Package pdftex.def Info: plots_of_V.jpg used on input line 4.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
- [19] [20 <./plots_of_V.jpg>]
+ [20 <./plots_of_V.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
 []\T1/lmr/m/n/12 warum
  []
@@ -1609,7 +1609,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 \T1/lmr/m/n/12 un-in-ter-
  []
 
-<schscat.pdf, id=531, 298.48657pt x 89.00581pt>
+<schscat.pdf, id=532, 298.48657pt x 89.00581pt>
 File: schscat.pdf Graphic file (type pdf)
  <use schscat.pdf>
 Package pdftex.def Info: schscat.pdf used on input line 55.
@@ -1619,7 +1619,7 @@ Overfull \hbox (29.44818pt too wide) in paragraph at lines 55--56
  [] 
  []
 
-) (./Information_problem.tex <collapse2.pdf, id=532, 121.253pt x 169.433pt>
+) (./Information_problem.tex <collapse2.pdf, id=533, 121.253pt x 169.433pt>
 File: collapse2.pdf Graphic file (type pdf)
 
 <use collapse2.pdf>
@@ -1646,7 +1646,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 12.
 
-[21 <./schscat.pdf>] [22 <./collapse2.pdf>]
+[21] [22 <./schscat.pdf> <./collapse2.pdf
+
+pdfTeX warning: pdflatex (file ./collapse2.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+>] [23]
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
 []\T1/lmr/m/n/12 das
  []
@@ -1666,18 +1670,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--54
 \T1/lmr/m/n/12 nach
  []
 
-[23]
 
 LaTeX Warning: The counter will not be printed.
              The label is: (3) on input line 81.
 
-) [24]
+[24]) [25]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 88.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
- [25]
+ [26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
@@ -1702,9 +1705,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 14795 strings out of 493105
- 235766 string characters out of 6137073
- 472076 words of memory out of 5000000
+ 14798 strings out of 493105
+ 235797 string characters out of 6137073
+ 474076 words of memory out of 5000000
  17762 multiletter control sequences out of 15000+600000
  99092 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1734,10 +1737,10 @@ f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (27 pages, 1293665 bytes).
+Output written on main.pdf (28 pages, 1295686 bytes).
 PDF statistics:
- 741 PDF objects out of 1000 (max. 8388607)
- 642 compressed objects within 7 object streams
- 176 named destinations out of 1000 (max. 500000)
+ 747 PDF objects out of 1000 (max. 8388607)
+ 647 compressed objects within 7 object streams
+ 179 named destinations out of 1000 (max. 500000)
  285 words of extra memory for PDF output out of 10000 (max. 10000000)
 

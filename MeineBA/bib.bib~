@@ -65,8 +65,7 @@
 }
 
 @misc{scholarUnruh,
-	author = "Fulling, S. A. and Matsas, G. E. A.",
-	key = "Unruh effect - scholarpedia",
-	url = "http://www.scholarpedia.org/article/Unruh_effect"
+	key = "http://www.scholarpedia.org/article/Unruh\_effect",
+	title = "{Unruh effect - scholarpedia}"
 }
 

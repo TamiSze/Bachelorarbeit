@@ -9,7 +9,7 @@
 	The coordinate ranges are: $-\infty < \xi_{L,R} < \infty,~ -\infty < \tau_{L,R} < \infty$.
 	And the translation of $\tau_R$ forwards and $\tau_L$ backwards in time is the evolution of the boost operator $K_x$, while the $\xi_{L,R}$ coordinates form hyperboloidal orbits of $K_x$. They only cover the blue wedges of \ref{Rindler} but not the future or past Rindler wedges. There are so called Rindler horizons at $\xi_R=-\infty$ and $\xi_L=\infty$ but they are again just there because of choice of coordinates and not actual event horizons. 
 	We get the corresponding metric by plugging in \eqref{rindler_coordinates} into $\diff s^2 = -\diff t^2 + \diff x^2 + \diff \vec{y}^2$:
-	\begin{align}
+	\begin{align} \label{Rindler_metric}
 		\diff s^2 = e^{2\xi_R} (-\diff \tau_R^2 + \diff \xi_R^2) + \diff \vec{y}^2 
 		= e^{-2\xi_L} (-\diff \tau_L^2 + \diff \xi_L^2) + \diff \vec{y}^2
  	\end{align}
@@ -50,7 +50,7 @@
 		\right]
 	\end{align}
 	The number of particles on top of the Rindler vacuum is considered by $n$ in each mode. Note, that there is a sign flip of k, which comes from the CPT configuration earlier.\marginpar{ich verstehs ned so ganz} In other words, the operator $\Theta$ sends $\tau_R \rightarrow -\tau_L,~ \xi_R \rightarrow -\xi_L,$ and $\vec{y}$ to itself. If we apply this to the right-hand modes $f_{R\omega k}$ it sends positive frequency modes to negative frequency modes. This means we have to take the complex conjugate to get the coefficient of the annihilation operator, and this flips the sign of $k$.
-\subsection{The Unruh temperature N} \label{Unruh}
+\subsection{The Unruh temperature \checkmark} \label{Unruh}
 Imagine a quantum field in its vacuum state, means there are no particles present from an inertial observer point of view. In this case there is no temerature measurable. But if we now have an accelerating observer in this field, he or she would experience a radiation which leads to a temperature, the so called Unruh temperature:
 	\begin{align} \label{Unruh_temp}
 		T_{\text{Unruh}}=\frac{\hbar a}{2\pi k_B c}

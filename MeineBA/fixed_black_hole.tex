@@ -1,11 +1,11 @@
 \section{Contemplation of a fixed black hole}
 
-\subsection{Approximation from Schwarzschild to Rindler}
+\subsection{Approximation from Schwarzschild to Rindler \checkmark} \label{approxChap}
 Upto now we still considered the quantum field theory and classical black holes apart from each other. Combining them would require a theory of quantum gravity on which i will not go deeper in this thesis. But we can start with a much simpler problem that would be the quantum field theory in a fixed black hole backround. Physically this means, that we're sending $G$ to zero and the mass of the black hole $M$ to infinity so that the Schwarzschild radius $r_s = 2GM$ ist fixed. This can be assured by sending $\frac{M}{m_p}$ to infinity, where $m_p =\frac{1}{\sqrt{8\pi G}}$ is the Planck mass. 
 
 This approximation is justified, which we can see by the example of a black hole with the mass of our sun:
 	\begin{align}
-		\frac{m_p}{M_{solar}} \approx 10^{-38}
+		\frac{m_p}{M_{solar}} \approx 2.4 \cdot 10^{-39}
 	\end{align}	 
 In this type of scale, the Schwarzschild radius is in order of kilometers (sun: $r_s=3 \unit{km}$) where we could imagine doing experiments. 
 
@@ -23,7 +23,7 @@ Now let's say $y_1=\theta, y_2=\varphi$ where the two angulars are orthogonal co
 		\diff s^2 \approx e^{r_* - 1} \left(-\diff t^2 + \diff r^2_*\right) + \diff \vec{y}^2
 	\end{align}
 This quite resembles the right Rindler wedge metric. It even becomes equal, if we insert
-	\begin{align}
+	\begin{align} \label{again_rindler_coord}
 		\begin{split}
 			r_*&= 2\xi_R + 1 - \log 4 \\
 			t &= 2\tau_R
@@ -46,3 +46,14 @@ How this looks like in Penrose diagrams if we do the same thing for the other th
 	\end{center}
 \end{figure}
 The outcome of this is, that for every initial state in a Schwarzschild geometry the left and right exteriors must be thermally entangled, assumed that the Schwarzschild looks like Minkowski space near them. 
+The relation \eqref{again_rindler_coord} between Schwarzschild and Rindler time leads to 
+	\begin{align}
+		T_{\text{Hawking}} = \frac{T_{\text{Unruh}}}{2} = \frac{1}{4\pi}
+	\end{align}
+This alliance between temperature and time can be made, because the time one is exposed to the radiation is proportional to the temperature. 
+
+With all constants the Hawking temperature is
+	\begin{align}
+		T_{\text{Hawking}} = \frac{1}{4\pi r_s} = \frac{\hbar c^3}{8 \pi k_B GM}
+	\end{align}
+So, the bigger the temperature is, the bigger is the size of the black hole. For a solarmass one for example, the temperature is about $6 \cdot 10^{-8} \,\unit{K}$. 

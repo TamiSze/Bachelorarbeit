@@ -22,7 +22,7 @@
 			\Rightarrow \sqrt{-g}&= r^2 \sin \theta
 		\end{align*}
 	to reform it into a Schrödinger equation:
-		\begin{equation}
+		\begin{equation} \label{schroedinger_eq}
 			- \frac{d^2}{dr^2_*} \Psi_{\omega l} 
 			+ V(r) \Psi_{\omega l} 
 			= \omega^2 \Psi_{\omega l}
@@ -40,16 +40,15 @@
 		\end{enumerate}
 	For to explain, why case \eqref{massless} is more interesting for us, we first need to have a look at case \eqref{massive}.
 	
-	Here the potential goes to $m^2$ for $r \gg 1$ which means that massive modes will only propagate till near infinity if $\omega \geq m$. Because we assumed, that $m \gg 1$, any modes with an energy $\omega$ of order of the Schwarzschild radius \textit{will stay near the horizon}. 
-	 
-	But we found out earlier, that the temperature of black holes is of order $\frac{1}{r_s}$. This means, that $\omega \approx 1$ would be the most interesting energy, but if the mass is already much bigger than one, we cannot examine the propagation to infinity because $\omega$ would also be much bigger than one.
-	
 	\begin{figure} [tbp]
 			\begin{center}
 				\includegraphics[scale=0.5]{plots_of_V}
-				\caption{These are the selvemade plots of $V(r_*)$ for $l=\{0,1,2,3$\}.} \label{plots_of_V}
+				\caption{These are the selfmade plots of $V(r_*)$ for $l=\{0,1,2,3$\}.} \label{plots_of_V}
 			\end{center}
 	\end{figure} %eigener Plot eingefügen
+	Here the potential goes to $m^2$ for $r \gg 1$ which means that massive modes will only propagate till near infinity if $\omega \geq m$. Because we assumed, that $m \gg 1$, any modes with an energy $\omega$ of order of the Schwarzschild radius \textit{will stay near the horizon}. 
+	 
+	But we found out earlier, that the temperature of black holes is of order $\frac{1}{r_s}$. This means, that $\omega \approx 1$ would be the most interesting energy, but if the mass is already much bigger than one, we cannot examine the propagation to infinity because $\omega$ would also be much bigger than one.
 		
 	So from now on we remain within the case of $m^2=0$, the massless case.
 	Here the asymptotic behavior of the potential is
@@ -63,12 +62,17 @@
 	If you wonder, why $r_*$ can go to infinity, then send $r$ in the tortoise coordinate \eqref{r_*tortoise} to 1 (which would be the Schwarzschild radius). You will get minus infinity. So this just means, that $r$ approaches $r_s$. 
 	
 	So the first approachment in \eqref{potential_near_infinity} leads to the vanishment of the potential at spatial infinity polynomially in $r_*$, but near the horizon it vanishes exponentially.
-	The barrier between these two regions of \eqref{potential_near_infinity} can be seen in \textbf{Figure \ref{plots_of_V}}. For $\ell \gg 1$ we will find the peak at $r_* = \frac{3}{2}$ with a height of order $\ell$.
+	The barrier between these two regions of \eqref{potential_near_infinity} can be seen in \textbf{Figure \ref{plots_of_V}}. For $\ell \gg 1$ we will find the peak at $r = \frac{3}{2}$ (which means in the figure at approx. $r_*= 0.8$) with a height of order $\ell^2$.
 	
-	 	
+	For modes with less energy then the height of the barrier, we have two regions outside the black hole to look at: 
+	\begin{enumerate}[1.)]
+		\item $r \gg \frac{3}{2}$ : Here the geometry is weakly curved, so modes propagate like in Minkowski space.
+		\item $1 < r < \frac{3}{2}$ : This near-horizon region can be called "thermal atmosphere" or "the zone". The first name was given because the modes, which propagate mostly near the horizon, must deal with a Boltzmann distribution with temperature $T_{\text{Hawking}} \approx 1$.  
+	\end{enumerate} 	
+	If we one approches this problem on the base of Schrödinger equation \eqref{schroedinger_eq}, it can be viewed as a scattering problem, see \textbf{Figure \ref{scattering}}. The modes can come from two directions and leave in two directions namely: coming from a white hole horizon at $r_*\rightarrow -\infty$ or from $J_-$ at $r_*\rightarrow \infty$, which is the past null infinity if you remember, and leaving into the black hole horizon at $r_* \rightarrow -\infty$ or through $J_+$ at $r_* \rightarrow \infty$, which would be the future null infinity. 
 	\begin{figure} [tbp]
 		\begin{center}
 			\includegraphics[scale=1.6]{schscat}
-			\caption{Bla} 
+			\caption{Bla} \label{scattering}
 		\end{center}
 	\end{figure}

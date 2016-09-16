@@ -1,4 +1,4 @@
-\subsection{Schwarzschild modes \textbf{N}}
+\subsection{Schwarzschild modes \checkmark}
 	We now have a look at free fields in the Schwarzschild geometry. For the beginning we need to find a set of modes $f$ that solve the free scalar equation of motion:
 		\begin{equation} \label{Klein_Gordon_curved}
 			\frac{1}{\sqrt{-g}} \partial_\mu (\sqrt{-g} g^{\mu \nu} \partial_\nu \phi)
@@ -69,10 +69,18 @@
 		\item $r \gg \frac{3}{2}$ : Here the geometry is weakly curved, so modes propagate like in Minkowski space.
 		\item $1 < r < \frac{3}{2}$ : This near-horizon region can be called "thermal atmosphere" or "the zone". The first name was given because the modes, which propagate mostly near the horizon, must deal with a Boltzmann distribution with temperature $T_{\text{Hawking}} \approx 1$.  
 	\end{enumerate} 	
-	If we one approches this problem on the base of Schrödinger equation \eqref{schroedinger_eq}, it can be viewed as a scattering problem, see \textbf{Figure \ref{scattering}}. The modes can come from two directions and leave in two directions namely: coming from a white hole horizon at $r_*\rightarrow -\infty$ or from $J_-$ at $r_*\rightarrow \infty$, which is the past null infinity if you remember, and leaving into the black hole horizon at $r_* \rightarrow -\infty$ or through $J_+$ at $r_* \rightarrow \infty$, which would be the future null infinity. 
+	If we one approches this problem on the base of Schrödinger equation \eqref{schroedinger_eq}, it can be viewed as a scattering problem, see \textbf{Figure \ref{scattering}}. The modes can come from two directions and leave in two directions namely: coming from a white hole horizon at $r_*\rightarrow -\infty$ or from $J_-$ at $r_*\rightarrow \infty$, which is the past null infinity if you remember, and leaving into the black hole horizon at $r_* \rightarrow -\infty$ or through $J_+$ at $r_* \rightarrow \infty$, which would be the future null infinity.
+	
+	If we want to know how one unique mode behaves, we need to look set boundary conditions. There are two possible directions, the particles can come from:
+	\begin{enumerate}[(i)]
+		\item They are send in from the right ({\color{blue} blue} arrow). The possibility if the black hole absorbs them ({\color{red} red} arrow), is given by the transmission coefficient which we get from the Schrödinger problem. But most of them will not ({\color{orange} orange} arrow), so the biggest part of the modes will live at $r \gg 1$.
+		\item This time, we don't allow particles come from the right. Instead they are coming out of the white hole, from the left ({\color{forestgreen} green} arrow). Most of it will be reflected off the barrier and fall back into the black hole ({\color{red} red} arrow). Some will tunnel through and go to infinity ({\color{orange} orange} arrow). There the biggest part of these modes is near the horizon which is why they are often called "zone modes" or "modes in the zone".
+	\end{enumerate} 
+	
+	In the following chapter we will find out, which modes are more important.  
 	\begin{figure} [tbp]
 		\begin{center}
 			\includegraphics[scale=1.6]{schscat}
-			\caption{Bla} \label{scattering}
+			\caption{On the right side there is shown a part of the Schwarzschild Penrose diagram. The grey region is $-\infty < r_* <\infty$. At the left you can see one potential V build on $r_*$ and the possible directions the modes can go are the colorful arrows. The {\color{forestgreen} green} one is coming from the white hole, the {\color{blue} blue} one comes from the null past infinity while the {\color{red} red} one goes into the black hole and the {\color{orange} orange} one goes to the null future infinity.} \label{scattering}
 		\end{center}
 	\end{figure}

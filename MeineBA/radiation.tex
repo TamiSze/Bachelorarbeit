@@ -5,13 +5,21 @@
 	
 	As early time definition we set the Minkowski modes to nonexited ones. The consequence is, that the modes in early Schwarzschild time are exited. 
 	To figure out how much these modes are exited, we need to find a relation between the creation and annihilation operators of Minkowski modes and Schwarzschild modes. This is very complicated and you can read about in Hawking's orignial paper \cite{Hawking}. In the end we get the floating energy in a band of late-time outgoing modes $f_{\omega \ell m}$, which are shown in \textbf{Figure \ref{scattering}} as the orange arrow and also in \textbf{Figure \ref{collapse2}}, with width $\diff \omega$: 
-	\begin{align}
+	\begin{align} \label{energy_flux}
 		\frac{\diff E}{\diff t} = \frac{\omega \diff \omega}{2\pi}
 		\frac{P_{abs}(\omega,\ell)}{e^{\beta \omega}-1}
 	\end{align} 
+	The $\beta$ is equal to the inverse of $T_{\text{Hawking}}$ while $P_{abs}(\omega,\ell)$ is the probablility for a mode with frequency $\omega$ and angular momentum $\ell$ coming from the right in \textbf{Figure \ref{scattering}} to transmit through the barrier.
+	Without this factor, \eqref{energy_flux} would be like the standard formular for the radiation of a black body with temperature $T = \beta^{-1}$ in vacuum. 
 	\begin{figure}
 		\begin{center}
 			\includegraphics[scale=1]{collapse2}
 			\caption{This is the geometry for a black hole made from collapse. Other than in \textbf{Figure \ref{collapse}} the collapsing shell is here shown in blue. The orange dashed line is the late time outgoing wave packet but in backwards evolution. This means, if we would go forwards in time, the arrow would be in the other direction. in seperates because some of it gets reflected off the shell and some goes through the shell.} \label{collapse2}
 		\end{center}
 	\end{figure}
+	
+	Please don't get confused by the directions we are talking about. The probability is for the wave packet evoluting backwards in time like in \textbf{Figure \ref{collapse2}} shown, but we are actually talking about the modes escaping the black hole by traveling forwards in time.
+	 
+	The barrier's height is proportional to $\ell^2$, so the most emitted modes will be the ones with the lowest angular momentum. This means the quantum states in the field near the black hole formed by the collapse, there are nearly stationary modes which are thermally exited and mostly the ones with low $\ell$ can carry energy to infinity after tunneling through the barrier. 
+	
+	Let's consider shortly the spins. In a massless field the particles with higher spin will carry less energy from near the horizon into the infinity. This is the case because the modes of particles with spin only radiates with $\ell >0$. And the higher the spin, the bigger the angular momentum of the modes will get. Thus the potential barrier will also grow. In the end this means, that most of the energy will be carried out to infinity by the massless particles with the lowest spin. In our universe these would be the photons while the after them the gravitons are carring a smaller, but still mentionable part of energy. 

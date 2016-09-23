@@ -41,18 +41,6 @@
   Url                      = {https://arxiv.org/abs/1409.1231}
 }
 
-@Article{Hawking2,
-  Title                    = {Breakdown of Predictability in Gravitational Collapse},
-  Author                   = {S. Hawking},
-  Journal                  = {Phys.Rev.},
-  Year                     = {1976},
-  Pages                    = {2460-2473},
-  Volume                   = {D14},
-
-  Owner                    = {tami},
-  Timestamp                = {2016.09.23}
-}
-
 @Article{Hawking,
   Title                    = {Particle Creation by Black Holes},
   Author                   = {S. Hawking},
